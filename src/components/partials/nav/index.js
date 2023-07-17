@@ -9,7 +9,16 @@ export const Nav = () => {
 
             <HeaderArea>
                <div className="menu">
-                    Menu
+
+                    <div className="text">
+                        <p>Sejá Bem vindo</p>
+                    </div>
+                   <div className="menu--menu">
+                        <ul>
+                            <li>Servicos</li>
+                            <li>Contato</li>
+                        </ul>
+                   </div>
                </div>
             </HeaderArea>
         </div>

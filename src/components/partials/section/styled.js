@@ -40,7 +40,7 @@ export const HeaderArea = styled.div `
         padding: 20px;
         text-align: center;
         height: 300px;
-        background-color: #bbb;
+        background-color: #B0A8B9;
         border-radius: 5px;
 
         .estrutura--metalica--tile p {
