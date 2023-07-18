@@ -8,8 +8,10 @@ export const Header = () => {
 
             <HeaderArea>
                 <div className="linha"></div>
-                <div className="header--logo">
+                <div className="header--left">
                     <img src={logo} /> 
+                </div>
+                <div className="header--right">
                 </div>
             </HeaderArea>
         </div>

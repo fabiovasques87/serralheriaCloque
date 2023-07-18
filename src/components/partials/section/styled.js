@@ -74,7 +74,10 @@ export const HeaderArea = styled.div `
         
        
         
-    
+        @media (max-width: 600px){
+            img{
+               width: 300px
+            }
           
       }
 

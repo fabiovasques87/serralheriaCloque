@@ -25,5 +25,12 @@ export const HeaderArea = styled.div `
       font-size:18px;
    }
 
+
+   @media (max-width: 600px){
+      .menu--menu ul,li ,  .text{
+         font-size:14px;
+      }
+   }
+
 `
 

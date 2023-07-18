@@ -1,5 +1,6 @@
 
 import { HeaderArea } from "./styled";
+import { Menu } from "../../menu";
 import logo from '../../../img/logo';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
@@ -14,10 +15,7 @@ export const Nav = () => {
                         <p>Sejá Bem vindo</p>
                     </div>
                    <div className="menu--menu">
-                        <ul>
-                            <li>Servicos</li>
-                            <li>Contato</li>
-                        </ul>
+                        <Menu />
                    </div>
                </div>
             </HeaderArea>

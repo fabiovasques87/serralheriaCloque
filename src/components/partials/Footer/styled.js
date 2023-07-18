@@ -32,7 +32,23 @@ export const HeaderArea = styled.div `
 }
 
 .footer--right form input, textarea, label{
-    margin: 5px;
+    margin: 2px;
+    padding:3px;
+    outline: none;
+}
+
+
+@media (max-width: 600px){
+
+    footer--left--contato, p{
+        font-size:12px;
+    }
+
+    .footer--right, form, input, textarea{
+        font-size:12px;
+        color: #fff;
+ 
+    }
 }
 
 `

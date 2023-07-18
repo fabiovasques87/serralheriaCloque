@@ -9,7 +9,7 @@ export const HeaderArea = styled.div `
         padding: 2px;
         background-color:black;
    }
-   .header--logo{
+   .header--left{
     margin-top:10px;
     display: flex;
     justify-content: space-around;
@@ -21,6 +21,10 @@ export const HeaderArea = styled.div `
     
     img{
         height: 150px;
+    }
+
+    .header--right{
+
     }
 
    }

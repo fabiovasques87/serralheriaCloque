@@ -6,6 +6,10 @@ import estruturaMetalicaArquitetura from '../../../img/estrutura-metalica-arquit
 import telhasGalvalume from '../../../img/telhasGalvalume.jpeg';
 import telhasTermoAcusticas from '../../../img/telhasTermoacusticas.jpeg';
 import telhasSanduiche from '../../../img/telhasanduiche.png';
+import galpao1 from '../../../img/galpao1.png';
+import galpao2 from '../../../img/galpao 2.png';
+import galpao3 from '../../../img/galpao 3.png';
+
 
 
 export const Section = () => {
@@ -136,8 +140,8 @@ export const Section = () => {
                                 <p>Tehas Sanduíche</p>
                             </div>
                             <div className="estrutura--metalica--img">
-                            <img src={telhasSanduiche} />
-                        </div>
+                                <img src={telhasSanduiche} />
+                             </div>
                             <div  className="estrutura--metalica--desc">
                                <p>
                                 A solução moderna, eficaz e econômica em coberturas e fechamentos laterais, 
@@ -145,15 +149,98 @@ export const Section = () => {
                                </p>
                             </div>
                             <div className="btn">
+                                <div className="btn--2">
+                                    <Btn />
+                                </div>                               
+                            </div>
+
+                        </div>
+                        
+                        
+                        
+                </div>
+
+                <div className="separador"></div>
+
+                <div className="title">
+                <p>Galpões</p>
+
+                    
+
+                    <div className="sub-title">
+                    é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+                    e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+                    é simplesmente uma simulação de texto da indústria tipográfica e de impressos
+                    e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+                    </div>
+                </div>
+                
+                <div class="section--services" >
+
+                    <div class="item">
+                            <div className="estrutura--metalica--tile">
+                                <p>Galpão</p>
+                            </div>
+                            <div className="estrutura--metalica--img">
+                                <img src={galpao1} />
+                            </div>
+                            <div  className="estrutura--metalica--desc">
+                               <p>
+                                Ótimo investimento pela resistência do material e confortabilidade. 
+                                Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
+                                por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
+                               </p>
+                            </div>
+                            <div className="btn">
+                                <div className="btn--2">
+                                    <Btn />
+                                </div>                               
+                            </div>
+                        </div>
+
+                        <div class="item">
+                        <div className="estrutura--metalica--tile">
+                            <p>Galpão</p>
+                        </div>
+                        <div className="estrutura--metalica--img">
+                            <img src={galpao2} />
+                        </div>
+                        <div  className="estrutura--metalica--desc">
+                        <p>
+                            Ótimo investimento pela resistência do material e confortabilidade. 
+                            Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
+                            por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
+                        </p>
+                        </div>
+                        <div className="btn">
                             <div className="btn--2">
                                 <Btn />
                             </div>                               
                         </div>
+                    </div>
 
+                    <div class="item">
+                        <div className="estrutura--metalica--tile">
+                            <p>Galpão</p>
                         </div>
-                        
-                </div>
+                        <div className="estrutura--metalica--img">
+                            <img src={galpao3} />
+                        </div>
+                        <div  className="estrutura--metalica--desc">
+                        <p>
+                            Ótimo investimento pela resistência do material e confortabilidade. 
+                            Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
+                            por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
+                        </p>
+                        </div>
+                        <div className="btn">
+                            <div className="btn--2">
+                                <Btn />
+                            </div>                               
+                        </div>
+                    </div>
 
+                    </div>
 
             </HeaderArea>
         </div>
