@@ -15,6 +15,10 @@ list-style:none;
 float:left;
 }
 
+.menu, ul, li, a{
+    color:#fff;
+ }
+
 .menu li{
     position:relative;
     float:left;

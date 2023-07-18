@@ -26,6 +26,8 @@ export const HeaderArea = styled.div `
    }
 
 
+
+
    @media (max-width: 600px){
       .menu--menu ul,li ,  .text{
          font-size:14px;

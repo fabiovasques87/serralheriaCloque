@@ -28,7 +28,7 @@ export const HeaderArea = styled.div `
     }
 
     .btn:hover {
-        background-color: orange;
+        background-color: #4D8076;
     }
  
 

@@ -1,6 +1,12 @@
 
 import { HeaderArea } from "./styled"
 import { Btn } from "../../btn/btnServices"
+
+import React , { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+
+
 import estruturaMetalica from '../../../img/estrutura-metalica.png';
 import estruturaMetalicaArquitetura from '../../../img/estrutura-metalica-arquitetura.png'
 import telhasGalvalume from '../../../img/telhasGalvalume.jpeg';
@@ -13,6 +19,9 @@ import galpao3 from '../../../img/galpao 3.png';
 
 
 export const Section = () => {
+
+    const [isHovered, setIsHovered] = useState(false);
+
     return (
         <div>
             <HeaderArea>
@@ -32,9 +41,19 @@ export const Section = () => {
                         <div className="estrutura--metalica--tile">
                             <p>estruturas metalicas</p>
                         </div>
-                        <div className="estrutura--metalica--img">
-                            <img src={estruturaMetalica} />
-                        </div>
+                        <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999010150" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
+                              <img src={estruturaMetalica} alt="Estrutura Metálica" />
+                 </div>
                         <div  className="estrutura--metalica--desc">
                             <ul>
                                 <li>Redução no tempo de contrução</li>
@@ -54,9 +73,19 @@ export const Section = () => {
                         <div className="estrutura--metalica--tile">
                             <p>estruturas metalicas na arquitetura</p>
                         </div>
-                        <div className="estrutura--metalica--img">
+                        <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
                             <img src={estruturaMetalicaArquitetura} />
-                        </div>
+                            </div>
                         <div  className="estrutura--metalica--desc">
                             <p>
                                 Concede um melhor aproveitamento do espaço disponível, 
@@ -95,9 +124,19 @@ export const Section = () => {
                         <div className="estrutura--metalica--tile">
                             <p>Telhas Galvalume</p>
                         </div>
-                        <div className="estrutura--metalica--img">
-                            <img src={telhasGalvalume} />
-                        </div>
+                        <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
+                              <img src={telhasGalvalume} />
+                              </div>
                         <div  className="estrutura--metalica--desc">
                             <ul>
                                 <li>Redução no tempo de contrução</li>
@@ -117,9 +156,19 @@ export const Section = () => {
                         <div className="estrutura--metalica--tile">
                             <p>Telhas termoacústicas</p>
                         </div>
-                        <div className="estrutura--metalica--img">
+                        <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
                             <img src={telhasTermoAcusticas} />
-                        </div>
+                            </div>
                         <div  className="estrutura--metalica--desc">
                             <ul>
                                 <li>Redução no tempo de contrução</li>
@@ -139,8 +188,18 @@ export const Section = () => {
                             <div className="estrutura--metalica--tile">
                                 <p>Tehas Sanduíche</p>
                             </div>
-                            <div className="estrutura--metalica--img">
-                                <img src={telhasSanduiche} />
+                            <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
+                             <img src={telhasSanduiche} />
                              </div>
                             <div  className="estrutura--metalica--desc">
                                <p>
@@ -181,8 +240,18 @@ export const Section = () => {
                             <div className="estrutura--metalica--tile">
                                 <p>Galpão</p>
                             </div>
-                            <div className="estrutura--metalica--img">
-                                <img src={galpao1} />
+                            <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
+                            <img src={galpao1} />
                             </div>
                             <div  className="estrutura--metalica--desc">
                                <p>
@@ -202,9 +271,19 @@ export const Section = () => {
                         <div className="estrutura--metalica--tile">
                             <p>Galpão</p>
                         </div>
-                        <div className="estrutura--metalica--img">
-                            <img src={galpao2} />
-                        </div>
+                        <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
+                             <img src={galpao2} />
+                             </div>
                         <div  className="estrutura--metalica--desc">
                         <p>
                             Ótimo investimento pela resistência do material e confortabilidade. 
@@ -223,9 +302,19 @@ export const Section = () => {
                         <div className="estrutura--metalica--tile">
                             <p>Galpão</p>
                         </div>
-                        <div className="estrutura--metalica--img">
+                        <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
                             <img src={galpao3} />
-                        </div>
+                            </div>
                         <div  className="estrutura--metalica--desc">
                         <p>
                             Ótimo investimento pela resistência do material e confortabilidade. 
@@ -240,7 +329,12 @@ export const Section = () => {
                         </div>
                     </div>
 
+                    
+
                     </div>
+
+                   
+             
 
             </HeaderArea>
         </div>

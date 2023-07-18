@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderArea = styled.div `
 
+
     .separador{
         margin-top: 50px;
         border: 1px solid rgba(0, 0, 0, 0.5);
@@ -26,15 +27,41 @@ export const HeaderArea = styled.div `
     }
 
     .section--services{
+
+       
+      
+      
+
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 20px;
         margin-top:50px;
 
         img{
-            width:500px;
+            width:490px;
             height:200px;
         }
+
+        .efeito{
+            position: absolute;
+            background-color: rgba(72,69,56, 0.9);
+            width:500px;
+            height:200px;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-transform:uppercase;
+           
+           
+            
+        }
+
+        .efeito:hover{
+            display: flex;
+        }
+      
     }
 
     .item{
@@ -72,7 +99,37 @@ export const HeaderArea = styled.div `
             margin: 10px;
         }
         
-       
+        .estrutura--metalica--img {
+            position: relative;
+      
+            .efeito {
+                position: absolute;
+                top: 0;
+                left: 0;            
+                margin-left: 50%;
+                transform: translateX(-50%);
+                background-color: rgba(72, 69, 56, 0.4);
+                width: 68;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                text-transform: uppercase;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+      
+            &:hover .efeito {
+              opacity: 1;
+            }
+          }
+        }
+        .icon{
+            font-size:60px;
+            color:#008000;
+        }
         
         @media (max-width: 600px){
             img{

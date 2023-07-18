@@ -12,7 +12,7 @@ export const Nav = () => {
                <div className="menu">
 
                     <div className="text">
-                        <p>Sejá Bem vindo</p>
+                      {/*<p>Sejá Bem vindo</p>   */}  
                     </div>
                    <div className="menu--menu">
                         <Menu />
