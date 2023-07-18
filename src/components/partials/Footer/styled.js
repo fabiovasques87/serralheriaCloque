@@ -15,5 +15,25 @@ export const HeaderArea = styled.div `
 
 }
 
+.footer--left-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer--left-email{
+
+}
+
+.footer--right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.footer--right form input, textarea, label{
+    margin: 5px;
+}
+
 `
 

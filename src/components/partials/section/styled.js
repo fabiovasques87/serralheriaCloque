@@ -30,6 +30,11 @@ export const HeaderArea = styled.div `
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 20px;
         margin-top:50px;
+
+        img{
+            width:500px;
+            height:200px;
+        }
     }
 
     .item{
@@ -39,9 +44,18 @@ export const HeaderArea = styled.div `
         justify-content: space-between;
         padding: 20px;
         text-align: center;
-        height: 300px;
-        background-color: #B0A8B9;
-        border-radius: 5px;
+        height: 450px;
+        background-color: ;
+        border: 1px solid #fff;
+
+        .btn{
+            // margin-top: auto;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+
+
+        }
 
         .estrutura--metalica--tile p {
             font-size:20px;
@@ -58,10 +72,9 @@ export const HeaderArea = styled.div `
             margin: 10px;
         }
         
-        .estrutura--metalica--btn{
-            margin-top: auto;
-            width:250px;
-        }
+       
+        
+    
           
       }
 

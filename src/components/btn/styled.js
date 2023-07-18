@@ -11,6 +11,8 @@ export const HeaderArea = styled.div `
         border-radius:10px;
         cursor: pointer;
 
+       
+
         .btn--text{
             font-size:14px;
             color: #fff;
@@ -18,12 +20,41 @@ export const HeaderArea = styled.div `
         }
 
         .btn--text:hover{
-            border-bottom: 1px solid #fff;
+            color:#000;
             
         }
+
+       
+    }
+
+    .btn:hover {
+        background-color: orange;
     }
  
 
 `
 
+export const BtnComentario = styled.div `
 
+.btn{
+
+    background-color: #4d8076;
+    border-radius:5px;
+    width:100px;
+    
+    .btn--text{
+        font-size:14px;
+        color: #fff;
+        padding:10px;
+        margin-top:10px;
+        text-align: center;
+    }
+
+    .btn--text:hover{
+       
+        
+    }
+}
+    
+
+`

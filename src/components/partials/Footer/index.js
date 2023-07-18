@@ -1,16 +1,34 @@
 import { HeaderArea } from "./styled";
+import { BtnForm } from "../../btn/btnForm";
 
-
-
-
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export const Footer = () => {
     return (
         <div>
             <HeaderArea>
                 <div className="footer">
-                    <p>E-mail:xxxxxxxx@xxxxxx</p>
-                    <p>(53) 999999999</p>
+                   <div className="footer--left--contato">
+                        <p><FontAwesomeIcon icon={faWhatsapp} /> (53) 9 99999999 </p>
+                        <p> claudia@email.com.br </p>
+                        <p> <FontAwesomeIcon icon={faInstagram} /> cloquecasadoserralheiro </p>
+                   </div>
+                  
+                   <div className="footer--right">
+                        <form>
+                            <label>Email</label>
+                            <input type="email" placeholder="Seu e-mail"/>
+
+                            <label>Comentários</label>
+                           <textarea placeholder="Insira um comentário">
+
+                           </textarea>
+                           <BtnForm />
+                        </form>
+                   </div>
                 </div>
                
             </HeaderArea>

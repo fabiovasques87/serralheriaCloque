@@ -5,7 +5,7 @@ export const Btn = () => {
         <div>
             <HeaderArea>
                 <div className="btn">
-                    <div className="btn--text">Veja nossos trabalhos</div>
+                    <div className="btn--text">Mais detalhes...</div>
                 </div>
             </HeaderArea>
         </div>

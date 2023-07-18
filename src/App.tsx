@@ -1,23 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { Header } from "./components/partials/Header";
-import { Footer } from "./components/partials/Footer";
-import { Nav } from './components/partials/nav';
-import { Section } from './components/partials/section';
-import { Btn } from './components/btn/btnServices';
+import {LandingPage} from './components/partials/LandingPage'
 
 
 
 export const App = () =>{
 
+
+  useEffect(() => {
+    document.title = 'Cloque estruturas metálicas';
+  }, []);
+
   return(
   <div>
-    <Header />
-    <Nav />
-    <Section />
-    <Footer />
+    <LandingPage />
   </div>
   );
 }
