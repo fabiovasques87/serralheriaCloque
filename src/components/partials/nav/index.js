@@ -1,7 +1,6 @@
 
 import { HeaderArea } from "./styled";
 import { Menu } from "../../menu";
-import logo from '../../../img/logo';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 export const Nav = () => {

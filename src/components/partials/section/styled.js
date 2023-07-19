@@ -29,9 +29,6 @@ export const HeaderArea = styled.div `
     .section--services{
 
        
-      
-      
-
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 20px;
@@ -101,6 +98,12 @@ export const HeaderArea = styled.div `
         
         .estrutura--metalica--img {
             position: relative;
+
+
+            img{
+                width:490px;
+                height:200px;
+            }
       
             .efeito {
                 position: absolute;
@@ -109,7 +112,7 @@ export const HeaderArea = styled.div `
                 margin-left: 50%;
                 transform: translateX(-50%);
                 background-color: rgba(72, 69, 56, 0.4);
-                width: 68;
+                width: 95%;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
@@ -124,16 +127,19 @@ export const HeaderArea = styled.div `
             &:hover .efeito {
               opacity: 1;
             }
-          }
         }
         .icon{
             font-size:60px;
             color:#008000;
         }
         
-        @media (max-width: 600px){
-            img{
-               width: 300px
+        @media (max-width: 800px){
+            .estrutura--metalica--img img{
+                width: 350px;
+            }
+
+            .efeito{
+                width:200px;
             }
           
       }
