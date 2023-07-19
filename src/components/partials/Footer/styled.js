@@ -23,9 +23,21 @@ export const HeaderArea = styled.div `
    
 }
 
-span{
+   .footer--bottom {
+   
+    background-color: #4B4453;
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+   
+   
+
+}
+
+.footer--bottom span{
     font-size:10px;
-    
+    color: #fff;
+    margin-right:15px;
 }
 
 .footer--left-email{
@@ -52,12 +64,7 @@ span{
         font-size:12px;
     }
 
-
-    span{
-        margin-bottom: 50px;
-        font-size:8px;
-        
-    }
+   
 
     .footer--right, form, input, textarea{
         font-size:12px;

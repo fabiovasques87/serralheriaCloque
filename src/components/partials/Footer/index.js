@@ -11,27 +11,35 @@ export const Footer = () => {
         <div>
             <HeaderArea>
                 <div className="footer">
-                   <div className="footer--left--contato">
-                        <p><FontAwesomeIcon icon={faWhatsapp} /> (53) 9 99999999 </p>
-                        <p> claudia@email.com.br </p>
-                        <p> <FontAwesomeIcon icon={faInstagram} /> cloquecasadoserralheiro </p>
 
-                        <span>Desenvolvido por Fábio Vasques</span>
-                   </div>
+                        <div className="footer--left--contato">
+                                <p><FontAwesomeIcon icon={faWhatsapp} /> (53) 9 99999999 </p>
+                                <p> claudia@email.com.br </p>
+                                <p> <FontAwesomeIcon icon={faInstagram} /> cloquecasadoserralheiro </p>
+
+                        </div>
                   
-                   <div className="footer--right">
-                        <form>
-                            <label>Email</label>
-                            <input type="email" placeholder="Seu e-mail"/>
+                        <div className="footer--right">
+                                <form>
+                                    <label>Email</label>
+                                    <input type="email" placeholder="Seu e-mail"/>
 
-                            <label>Descrição</label>
-                           <textarea placeholder="Insira um comentário">
+                                    <label>Descrição</label>
+                                <textarea placeholder="Insira um comentário">
 
-                           </textarea>
-                           <BtnForm />
-                        </form>
-                   </div>
+                                </textarea>
+                                <BtnForm />
+                                </form>
+                        </div>
+
+                  
+
                 </div>
+
+                    <div className="footer--bottom">
+                        <span>Desenvolvido por Fábio Vasques</span>
+                    </div>
+              
                
             </HeaderArea>
         </div>
