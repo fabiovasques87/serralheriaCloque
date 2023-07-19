@@ -15,6 +15,8 @@ export const Footer = () => {
                         <p><FontAwesomeIcon icon={faWhatsapp} /> (53) 9 99999999 </p>
                         <p> claudia@email.com.br </p>
                         <p> <FontAwesomeIcon icon={faInstagram} /> cloquecasadoserralheiro </p>
+
+                        <span>Desenvolvido por Fábio Vasques</span>
                    </div>
                   
                    <div className="footer--right">

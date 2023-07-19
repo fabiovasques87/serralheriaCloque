@@ -19,7 +19,15 @@ export const HeaderArea = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+   
 }
+
+span{
+    font-size:10px;
+    
+}
+
 .footer--left-email{
 
 }
@@ -42,6 +50,13 @@ export const HeaderArea = styled.div `
 
     footer--left--contato, p{
         font-size:12px;
+    }
+
+
+    span{
+        margin-bottom: 50px;
+        font-size:8px;
+        
     }
 
     .footer--right, form, input, textarea{
