@@ -22,7 +22,7 @@ export const Footer = () => {
                             <label>Email</label>
                             <input type="email" placeholder="Seu e-mail"/>
 
-                            <label>Comentários</label>
+                            <label>Descrição</label>
                            <textarea placeholder="Insira um comentário">
 
                            </textarea>

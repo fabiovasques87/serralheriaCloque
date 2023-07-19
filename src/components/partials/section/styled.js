@@ -10,12 +10,13 @@ export const HeaderArea = styled.div `
 
     .title{
      
+        margin-top:50px;
+        margin-bottom:50px;
       
         p{
             font-size:32px;
             font-weight: bold;
             text-align: center;
-            text-transform: uppercase;
         }
 
         .sub-title{
@@ -23,6 +24,7 @@ export const HeaderArea = styled.div `
             text-align: center;
             margin-bottom:50px;
         }
+        
         
     }
 
@@ -42,8 +44,6 @@ export const HeaderArea = styled.div `
         .efeito{
             position: absolute;
             background-color: rgba(72,69,56, 0.9);
-            width:500px;
-            height:200px;
             display: none;
             flex-direction: column;
             justify-content: center;
@@ -112,7 +112,7 @@ export const HeaderArea = styled.div `
                 margin-left: 50%;
                 transform: translateX(-50%);
                 background-color: rgba(72, 69, 56, 0.4);
-                width: 95%;
+                width: 70%;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
@@ -133,13 +133,23 @@ export const HeaderArea = styled.div `
             color:#008000;
         }
         
-        @media (max-width: 800px){
+        @media (max-width: 500px){
+
+           .title .sub-title {
+                font-size:12px;
+                background-color: red;
+            }
+
             .estrutura--metalica--img img{
                 width: 350px;
             }
 
-            .efeito{
-                width:200px;
+           
+
+           
+          
+            .estrutura--metalica--img  .efeito{
+                width: 100%;
             }
           
       }

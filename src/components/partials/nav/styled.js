@@ -12,8 +12,9 @@ export const HeaderArea = styled.div `
        
 
         color: #fff;
-        background-color: #4D8076;
+        background-color: #ccc;
         padding:20px;
+        height:6rem;
         font-size:22px;
         font-weight: bold;
    }

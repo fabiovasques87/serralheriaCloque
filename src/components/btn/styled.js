@@ -5,7 +5,7 @@ export const HeaderArea = styled.div `
 
     .btn{
 
-        background-color:#9f6ff2;
+        background-color:#2F608E;
         padding:10px;
         margin:10px;
         border-radius:10px;
@@ -41,12 +41,13 @@ export const BtnComentario = styled.div `
     background-color: #4d8076;
     border-radius:5px;
     width:100px;
+    padding:5px;
+    margin:5px;
     
     .btn--text{
         font-size:14px;
         color: #fff;
-        padding:10px;
-        margin-top:10px;
+        padding:2px;
         text-align: center;
     }
 

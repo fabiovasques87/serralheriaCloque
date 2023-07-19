@@ -26,14 +26,15 @@ export const Section = () => {
         <div>
             <HeaderArea>
                 <div className="title">
-                    <p>estruturas metalicas</p>
+                    <p>Estruturas metalicas</p>
+                </div>
                     <div className="sub-title">
                     é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
                     e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
                     é simplesmente uma simulação de texto da indústria tipográfica e de impressos
                     e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
                     </div>
-                </div>
+                
 
                 <div class="section--services" >
                    
@@ -222,9 +223,9 @@ export const Section = () => {
                 <div className="separador"></div>
 
                 <div className="title">
-                <p>Galpões</p>
-
-                    
+                    <p>Galpões</p>
+                </div>
+                                
 
                     <div className="sub-title">
                     é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
@@ -232,7 +233,7 @@ export const Section = () => {
                     é simplesmente uma simulação de texto da indústria tipográfica e de impressos
                     e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
                     </div>
-                </div>
+               
                 
                 <div class="section--services" >
 
