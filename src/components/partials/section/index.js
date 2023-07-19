@@ -245,7 +245,7 @@ export const Section = () => {
                             className="estrutura--metalica--img"
                             onMouseEnter={() => setIsHovered(true)}
                             onMouseLeave={() => setIsHovered(false)}
-                        >
+                            >
                             {isHovered && (
                                 <div className="efeito">
                                   <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>

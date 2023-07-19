@@ -68,7 +68,7 @@ export const HeaderArea = styled.div `
         justify-content: space-between;
         padding: 20px;
         text-align: center;
-        height: 450px;
+        height: 500px;
         background-color: ;
         border: 1px solid #fff;
 
