@@ -29,10 +29,10 @@ export const Section = () => {
                     <p>Estruturas metalicas</p>
                 </div>
                     <div className="sub-title">
-                    é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
-                    e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
-                    é simplesmente uma simulação de texto da indústria tipográfica e de impressos
-                    e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+                        é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+                        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+                        é simplesmente uma simulação de texto da indústria tipográfica e de impressos
+                        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
                     </div>
                 
 

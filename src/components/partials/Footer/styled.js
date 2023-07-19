@@ -13,7 +13,11 @@ export const HeaderArea = styled.div `
     justify-content: space-around;
     align-items: center;
 
+  
+
 }
+
+
 
 .footer--left-contato{
     display: flex;

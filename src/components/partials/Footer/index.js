@@ -32,9 +32,11 @@ export const Footer = () => {
                                 </form>
                         </div>
 
-                  
+                       
 
                 </div>
+
+                
 
                     <div className="footer--bottom">
                         <span>Desenvolvido por Fábio Vasques</span>

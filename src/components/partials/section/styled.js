@@ -135,7 +135,7 @@ export const HeaderArea = styled.div `
         
         @media (max-width: 700px){
 
-           .title .sub-title {
+           .sub-title {
                 font-size:12px;
                 background-color: red;
             }
