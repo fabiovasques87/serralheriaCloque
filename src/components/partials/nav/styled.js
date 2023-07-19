@@ -33,6 +33,14 @@ export const HeaderArea = styled.div `
       .menu--menu ul,li ,  .text{
          font-size:14px;
       }
+
+      .menu{
+         height:200px;
+      }
+
+      .text p {
+         font-size:30px;
+      }
    }
 
 `

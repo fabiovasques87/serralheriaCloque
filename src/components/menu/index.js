@@ -4,6 +4,13 @@ import { HeaderArea } from "./styled";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 export const Menu = () =>{
     return (
@@ -11,22 +18,56 @@ export const Menu = () =>{
             <HeaderArea>
 
             
+            {/* <Navbar expand="lg" >
+      <Container fluid>
+        <Navbar.Brand href="#">Contato</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+          >
+            <NavDropdown title="Serviços" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Tehas</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+                Estruturas metálicas
+              </NavDropdown.Item>
+            </NavDropdown>
+           
+          </Nav>
+         
+        </Navbar.Collapse>
+      </Container>
+    </Navbar> */}
 
-            <Dropdown data-bs-theme="dark">
-                <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
-                    Serviços
-                </Dropdown.Toggle>
+<Navbar expand="lg">
+      <Container fluid>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
 
-                
-
-                    <Dropdown.Menu>
-                {/* <Dropdown.Item href="#/action-1" active>
-                    Serviços
-                </Dropdown.Item> */}
-                <Dropdown.Item href="#/action-2">Telhas</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Estruturas metálicas</Dropdown.Item>
-                </Dropdown.Menu>
-            </Dropdown>
+            <NavDropdown title="Serviços" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Telhado</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+                Estruturas Metálicas
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+                Galpões
+              </NavDropdown.Item>
+             
+           
+            </NavDropdown>
+           
+          </Nav>
+          
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+            
           
          
 
