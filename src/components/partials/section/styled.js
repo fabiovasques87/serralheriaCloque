@@ -111,7 +111,7 @@ export const HeaderArea = styled.div `
                 left: 0;            
                 margin-left: 50%;
                 transform: translateX(-50%);
-                background-color: rgba(72, 69, 56, 0.4);
+                background-color: rgba(72, 69, 56, 0.1);
                 width: 70%;
                 height: 100%;
                 display: flex;
@@ -133,7 +133,7 @@ export const HeaderArea = styled.div `
             color:#008000;
         }
         
-        @media (max-width: 500px){
+        @media (max-width: 600px){
 
            .title .sub-title {
                 font-size:12px;
@@ -145,7 +145,11 @@ export const HeaderArea = styled.div `
             }
 
            
+            .btn--2{
+                width:100%;
+            }
 
+         
            
           
             .estrutura--metalica--img  .efeito{
