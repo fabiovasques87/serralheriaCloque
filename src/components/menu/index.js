@@ -42,22 +42,20 @@ export const Menu = () =>{
 
 <Navbar expand="lg">
       <Container fluid>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll"  style={{backgroundColor:'#fff', fontFamily: 'SQUARED'}}/>
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '100px',  backgroundColor:'#fff',fontFamily: 'SQUARED' }}
             navbarScroll
           >
 
-            <NavDropdown title="Serviços" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Telhado</NavDropdown.Item>
+            <NavDropdown title="Menu" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Sobre</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
-                Estruturas Metálicas
+                Serviços
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Galpões
-              </NavDropdown.Item>
+             
              
            
             </NavDropdown>

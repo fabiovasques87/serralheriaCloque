@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @font-face {
+    font-family: 'SQUARED';
+    src: local('SQUARED'), url(./fonts/forced_square/FORCED SQUARE.ttf) format('truetype');
+  }
+
+ 
+
 }
 
 code {
