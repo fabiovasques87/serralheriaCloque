@@ -10,10 +10,13 @@ export const HeaderArea = styled.div `
         background-color:black;
    }
    .header--left{
-    margin-top:10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+        margin-top:10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #EDF0F2;
+
+     
     
     p {
         font-size:18px;
@@ -27,6 +30,13 @@ export const HeaderArea = styled.div `
 
     }
 
+   }
+
+   @media(max-width: 700px){
+        .header--left, img{
+            width: 100%;
+            height:80%;
+        }
    }
 
 `

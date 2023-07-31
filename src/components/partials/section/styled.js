@@ -10,10 +10,12 @@ export const HeaderArea = styled.div `
 
     .title{
      
+        font-family: SQUARED, serif;
         margin-top:50px;
         margin-bottom:50px;
       
         p{
+            font-family: SQUARED, serif;
             font-size:32px;
             font-weight: bold;
             text-align: center;
@@ -23,6 +25,8 @@ export const HeaderArea = styled.div `
             font-size:16px;
             text-align: center;
             margin-bottom:50px;
+            font-family: SQUARED, serif;
+
         }
         
         
@@ -30,7 +34,7 @@ export const HeaderArea = styled.div `
 
     .section--services{
 
-       
+        font-family: SQUARED, serif;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 20px;

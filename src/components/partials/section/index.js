@@ -223,7 +223,7 @@ export const Section = () => {
                 <div className="separador"></div>
 
                 <div className="title">
-                    <p>Galpões</p>
+                    <p>GALPÕES</p>
                 </div>
                                 
 

@@ -42,11 +42,11 @@ export const Menu = () =>{
 
 <Navbar expand="lg">
       <Container fluid>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll"  style={{backgroundColor:'#fff'}}/>
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '100px',  backgroundColor:'#fff' }}
             navbarScroll
           >
 

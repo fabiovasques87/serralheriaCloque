@@ -10,7 +10,7 @@ import { Section } from '../../partials/section';
 export const LandingPage = () =>{
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <Nav />
             <Section />
             <Footer />
