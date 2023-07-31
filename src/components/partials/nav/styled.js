@@ -1,6 +1,6 @@
 
 
-import logo1 from '../../../img/Background.jpg';
+import logo1 from '../../../img/soldador2.jpg';
 
 
 
@@ -23,7 +23,7 @@ export const HeaderArea = styled.div `
         background-size: cover;
         color: #fff;
         padding:20px;
-        height:20rem;
+        height:22rem;
         font-size:22px;
         font-weight: bold;
         
@@ -48,6 +48,16 @@ export const HeaderArea = styled.div `
 
 }
 
+   @media (min-width: 601px) AND (max-width: 1024px) {
+
+      .menu, .logo1 ,img{
+         width: 100%;
+       }
+
+       ..menu--menu{
+         flex-direction: column!important ;
+       }
+   }
 
    @media (max-width: 600px){
       .menu--menu ul,li ,  .text{
@@ -55,7 +65,6 @@ export const HeaderArea = styled.div `
       }
 
       .menu{
-<<<<<<< HEAD
          height:50%;
          background-size: cover;
          
@@ -63,13 +72,6 @@ export const HeaderArea = styled.div `
 
       .text p {
          font-size:20px;
-=======
-         height:150px;
-      }
-
-      .text p {
-        display: none;
->>>>>>> c7de37e2fa984c28b9bc3f6d38a20708c33f65ad
       }
 
       .menu, .logo1 ,img{
