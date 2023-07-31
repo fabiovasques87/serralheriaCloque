@@ -50,14 +50,12 @@ export const Menu = () =>{
             navbarScroll
           >
 
-            <NavDropdown title="Serviços" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Telhado</NavDropdown.Item>
+            <NavDropdown title="Menu" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Sobre</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
-                Estruturas Metálicas
+                Serviços
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Galpões
-              </NavDropdown.Item>
+             
              
            
             </NavDropdown>

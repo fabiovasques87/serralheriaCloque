@@ -39,7 +39,7 @@ export const Footer = () => {
                 
 
                     <div className="footer--bottom">
-                        <span>Desenvolvido por Fábio Vasques</span>
+                        <span>&copy; 2023 Desenvolvido por Fábio Vasques</span>
                     </div>
               
                

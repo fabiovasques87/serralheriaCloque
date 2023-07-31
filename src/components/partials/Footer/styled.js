@@ -12,7 +12,7 @@ export const HeaderArea = styled.div `
     display:flex;
     justify-content: space-around;
     align-items: center;
-
+    font-family: 'Saira Semi Condensed', sans-serif;
   
 
 }
@@ -39,7 +39,7 @@ export const HeaderArea = styled.div `
 }
 
 .footer--bottom span{
-    font-size:10px;
+    font-size:14px;
     color: #fff;
     margin-right:15px;
 }
@@ -74,6 +74,10 @@ export const HeaderArea = styled.div `
         font-size:12px;
         color: #fff;
  
+    }
+
+    .footer--bottom span{
+        font-size:10px;
     }
 }
 

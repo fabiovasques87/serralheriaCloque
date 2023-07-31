@@ -1,5 +1,5 @@
 import { HeaderArea } from "./styled";
-import logo from '../../../img/logo2.png';
+import logo from '../../../img/fundo.png';
 
 
 export const Header = () => {

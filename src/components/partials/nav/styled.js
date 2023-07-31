@@ -9,6 +9,10 @@ import styled from 'styled-components';
 export const HeaderArea = styled.div `
 
    .menu{
+      .text, p{
+         font-family: SQUARED, serif;
+
+      }
 
         display:flex;
         justify-content:space-around;
@@ -51,6 +55,7 @@ export const HeaderArea = styled.div `
       }
 
       .menu{
+<<<<<<< HEAD
          height:50%;
          background-size: cover;
          
@@ -58,6 +63,13 @@ export const HeaderArea = styled.div `
 
       .text p {
          font-size:20px;
+=======
+         height:150px;
+      }
+
+      .text p {
+        display: none;
+>>>>>>> c7de37e2fa984c28b9bc3f6d38a20708c33f65ad
       }
 
       .menu, .logo1 ,img{
