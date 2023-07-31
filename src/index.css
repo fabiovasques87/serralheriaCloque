@@ -10,6 +10,12 @@ body {
     font-family: 'SQUARED';
     src: local('SQUARED'), url(./fonts/forced_square/FORCED SQUARE.ttf) format('truetype');
   }
+<<<<<<< HEAD
+=======
+
+ 
+
+>>>>>>> c7de37e2fa984c28b9bc3f6d38a20708c33f65ad
 }
 
 code {

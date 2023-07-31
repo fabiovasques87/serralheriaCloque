@@ -10,12 +10,20 @@ export const HeaderArea = styled.div `
 
     .title{
      
+<<<<<<< HEAD
         font-family: SQUARED, serif;
+=======
+        font-family: 'Saira Semi Condensed', sans-serif;
+>>>>>>> c7de37e2fa984c28b9bc3f6d38a20708c33f65ad
         margin-top:50px;
         margin-bottom:50px;
       
         p{
+<<<<<<< HEAD
             font-family: SQUARED, serif;
+=======
+            font-family: 'Saira Semi Condensed', sans-serif;
+>>>>>>> c7de37e2fa984c28b9bc3f6d38a20708c33f65ad
             font-size:32px;
             font-weight: bold;
             text-align: center;
@@ -34,7 +42,10 @@ export const HeaderArea = styled.div `
 
     .section--services{
 
+<<<<<<< HEAD
         font-family: SQUARED, serif;
+=======
+>>>>>>> c7de37e2fa984c28b9bc3f6d38a20708c33f65ad
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 20px;
