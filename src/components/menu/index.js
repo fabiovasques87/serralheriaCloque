@@ -1,6 +1,8 @@
 
 import { HeaderArea } from "./styled";
 
+import { Link } from "react-scroll";
+
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
@@ -18,27 +20,7 @@ export const Menu = () =>{
             <HeaderArea>
 
             
-            {/* <Navbar expand="lg" >
-      <Container fluid>
-        <Navbar.Brand href="#">Contato</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-          >
-            <NavDropdown title="Serviços" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Tehas</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Estruturas metálicas
-              </NavDropdown.Item>
-            </NavDropdown>
            
-          </Nav>
-         
-        </Navbar.Collapse>
-      </Container>
-    </Navbar> */}
 
 <Navbar expand="lg">
       <Container fluid>
@@ -51,15 +33,46 @@ export const Menu = () =>{
           >
 
             <NavDropdown title="Menu" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Sobre</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Serviços
-              </NavDropdown.Item>
-             
-             
-           
-            </NavDropdown>
-           
+            <NavDropdown.Item>
+          <Link
+            activeClass="active"
+            to="estrutura-metalica"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Estruturas Metálicas
+          </Link>
+        </NavDropdown.Item>
+
+        <NavDropdown.Item>
+          <Link
+            activeClass="active"
+            to="telhas"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Telhas
+          </Link>
+        </NavDropdown.Item>
+
+        <NavDropdown.Item>
+          <Link
+            activeClass="active"
+            to="galpao"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Galpões
+          </Link>
+        </NavDropdown.Item>
+      </NavDropdown>
+         
           </Nav>
           
         </Navbar.Collapse>

@@ -1,10 +1,12 @@
 
-import { HeaderArea } from "./styled"
-import { Btn } from "../../btn/btnServices"
+import { HeaderArea } from "./styled";
+import { Btn } from "../../btn/btnServices";
+import ScrollToTopButton from "../../buttonScroll";
 
 import React , { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { Link } from "react-scroll";
 
 
 import estruturaMetalica from '../../../img/estrutura-metalica.png';
@@ -25,7 +27,7 @@ export const Section = () => {
     return (
         <div>
             <HeaderArea>
-                <div className="title">
+                <div className="title" id="estrutura-metalica">
                     <p>Estruturas metalicas</p>
                 </div>
                     <div className="sub-title">
@@ -106,9 +108,9 @@ export const Section = () => {
                
               <div className="separador"></div>
 
-                <div className="title">
-                <p>Telhas</p>
-
+                <div className="title" id="telhas">
+                    <p>Telhas</p>
+                </div>
                     
 
                     <div className="sub-title">
@@ -117,7 +119,7 @@ export const Section = () => {
                     é simplesmente uma simulação de texto da indústria tipográfica e de impressos
                     e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
                     </div>
-                </div>
+                
 
                 <div class="section--services" >
 
@@ -222,7 +224,7 @@ export const Section = () => {
 
                 <div className="separador"></div>
 
-                <div className="title">
+                <div className="title" id="galpao">
                     <p>GALPÕES</p>
                 </div>
                                 
@@ -335,7 +337,8 @@ export const Section = () => {
                     </div>
 
                    
-             
+            
+            {/* <ScrollToTopButton /> */}
 
             </HeaderArea>
         </div>
