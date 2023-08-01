@@ -21,15 +21,18 @@ export const HeaderArea = styled.div `
             text-align: center;
         }
 
-        .sub-title{
-            font-size:16px;
-            text-align: center;
-            margin-bottom:50px;
-            font-family: SQUARED, serif;
+      
+        
+        
+    }
+    .sub-title{
+        font-size:16px;
+        text-align: justify;
+        margin-bottom:50px;
+        font-family: SQUARED, serif;
+        margin-left:10px;
+        margin-right:10px;
 
-        }
-        
-        
     }
 
     .section--services{
@@ -73,7 +76,6 @@ export const HeaderArea = styled.div `
         padding: 20px;
         text-align: center;
         height: 500px;
-        background-color: ;
         border: 1px solid #fff;
 
         .btn{
@@ -102,7 +104,7 @@ export const HeaderArea = styled.div `
         
         .estrutura--metalica--img {
             position: relative;
-
+        }
 
             img{
                 width:490px;
@@ -139,10 +141,7 @@ export const HeaderArea = styled.div `
         
         @media (max-width: 700px){
 
-           .sub-title {
-                font-size:12px;
-                background-color: red;
-            }
+         
 
             .estrutura--metalica--img img{
                 width: 350px;
@@ -153,13 +152,15 @@ export const HeaderArea = styled.div `
                 width:100%;
             }
 
-         
+            .sub-title {
+             
+                font-size:14px;
+                margin-left: 10px;
+                margin-right:10px;
+            }
            
           
-            .estrutura--metalica--img  .efeito{
-                width: 100%;
-            }
-          
+           
       }
 
    
