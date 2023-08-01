@@ -2,6 +2,10 @@
 import React from "react";
 import { Link } from "react-scroll";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+
+
 const ScrollToTopButton = () => {
   return (
     <div
@@ -11,7 +15,7 @@ const ScrollToTopButton = () => {
         right: "20px",
         cursor: "pointer",
         padding: "10px",
-        backgroundColor: "#007bff",
+        // backgroundColor: "#007bff",
         color: "#fff",
         borderRadius: "50%",
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
@@ -19,14 +23,16 @@ const ScrollToTopButton = () => {
     >
       <Link
         activeClass="active"
-        to="top"
+        to="navbarScrollingDropdown"
         spy={true}
         smooth={true}
         offset={-70}
         duration={500}
       >
-        ↑
-      </Link>
+
+<FontAwesomeIcon icon={faArrowUp} />
+
+    </Link>
     </div>
   );
 };

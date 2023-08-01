@@ -338,7 +338,7 @@ export const Section = () => {
 
                    
             
-            {/* <ScrollToTopButton /> */}
+            <ScrollToTopButton  />
 
             </HeaderArea>
         </div>
