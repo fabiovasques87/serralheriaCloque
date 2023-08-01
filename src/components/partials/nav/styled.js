@@ -31,7 +31,7 @@ export const HeaderArea = styled.div `
    
 
         .menu, .logo1 ,img{
-         // width:100px;
+         margin-top: 30px;
         }
    }
 
@@ -74,8 +74,10 @@ export const HeaderArea = styled.div `
          font-size:20px;
       }
 
-      .menu, .logo1 ,img{
+      .logo, img{
           width: 100%;
+          margin-bottom: 50px;
+
         }
    }
 
