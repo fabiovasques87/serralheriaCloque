@@ -32,6 +32,7 @@ export const HeaderArea = styled.div `
 
         .menu, .logo1 ,img{
          margin-top: 30px;
+         height:500px;
         }
    }
 
@@ -52,6 +53,7 @@ export const HeaderArea = styled.div `
 
       .menu, .logo1 ,img{
          width: 100%;
+         height: 50%;
        }
 
        ..menu--menu{
@@ -60,6 +62,11 @@ export const HeaderArea = styled.div `
    }
 
    @media (max-width: 600px){
+
+      .menu{
+         flex-direction: column;
+      }
+
       .menu--menu ul,li ,  .text{
          font-size:14px;
       }

@@ -14,60 +14,50 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-
 export const Menu = () =>{
     return (
         <div>
             <HeaderArea>
 
+            
+           
 
-
-
-    <Navbar expand="lg" className="nav">
+<Navbar expand="lg">
       <Container fluid>
-        <Navbar.Toggle aria-controls="navbarScroll" style={{ maxWidth: '100%', background: '#fff' }} />
+        <Navbar.Toggle aria-controls="navbarScroll"  style={{backgroundColor:'#fff'}}/>
         <Navbar.Collapse id="navbarScroll">
-        <Nav id="navbarScrollingDropdown"
+          <Nav
             className="me-auto my-2 my-lg-0"
-            style={{  }}
+            style={{ maxHeight: '100px',  backgroundColor:'#fff' }}
             navbarScroll
           >
-            <Nav.Link>
-              <Link className="menu-item"
-                activeClass="active"
-                to="estrutura-metalica"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >     Estruturas Metálicas         
-              </Link>
-            </Nav.Link>
 
-            <Nav.Link>
-              <Link className="menu-item"
-                activeClass="active"
-                to="telhas"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >    Telhas          
-              </Link>
-            </Nav.Link>
+            <NavDropdown title="Menu" id="navbarScrollingDropdown">
+            <NavDropdown.Item>
+          <Link
+            activeClass="active"
+            to="estrutura-metalica"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Estruturas Metálicas
+          </Link>
+        </NavDropdown.Item>
 
-            <Nav.Link>
-              <Link className="menu-item"
-                activeClass="active"
-                to="galpao"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              > Galpões             
-              </Link>
-            </Nav.Link>
-{/*
+        <NavDropdown.Item>
+          <Link
+            activeClass="active"
+            to="telhas"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Telhas
+          </Link>
+        </NavDropdown.Item>
 
         <NavDropdown.Item>
           <Link
@@ -81,15 +71,15 @@ export const Menu = () =>{
             Galpões
           </Link>
         </NavDropdown.Item>
-  */}
-        
-          </Nav>
+      </NavDropdown>
          
+          </Nav>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-
+            
+          
          
 
             {/* <nav>
