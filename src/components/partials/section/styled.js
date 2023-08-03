@@ -75,7 +75,7 @@ export const HeaderArea = styled.div `
         justify-content: space-between;
         padding: 20px;
         text-align: center;
-        height: 500px;
+        height: 520px;
         border: 1px solid #fff;
 
         .btn{
