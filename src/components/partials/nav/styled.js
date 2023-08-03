@@ -26,7 +26,7 @@ export const HeaderArea = styled.div `
         height:22rem;
         font-size:22px;
         font-weight: bold;
-        
+        height: 500px;
 
    
 

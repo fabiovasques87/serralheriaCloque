@@ -26,8 +26,8 @@ a{
 
 @media (max-width: 800px){
     .nav{
-        color: #fff;
-        background-color: #000;
+        color: #000;
+        background-color: #fff;
         margin-top: 2px;
     }
 
@@ -36,7 +36,7 @@ a{
     }
   
     a{
-        color: #fff;
+        color: #000;
         font-size:12px;
     }
     a:hover{
