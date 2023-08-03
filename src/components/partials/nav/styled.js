@@ -97,7 +97,7 @@ export const HeaderArea = styled.div `
 
    @media (min-width: 400px) AND (max-width: 599px) {
       .menu--menu{
-         margin-left: 00px;
+         margin-left: -100px;
       }
    }
 
