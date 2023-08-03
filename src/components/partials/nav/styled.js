@@ -51,31 +51,38 @@ export const HeaderArea = styled.div `
 
    @media (min-width: 601px) AND (max-width: 1024px) {
 
+      .menu--menu{
+         margin-left: -290px;
+      }
+
+
       .menu, .logo1 ,img{
          width: 100%;
          height: 50%;
        }
 
-       ..menu--menu{
-         flex-direction: column!important ;
+       .menu{
+         flex-direction: column;
        }
    }
 
    @media (max-width: 600px){
+      .menu--menu{
+         margin-left: -290px;
+      }
 
       .menu{
          flex-direction: column;
+         height:50%;
+         background-size: cover;
+         
       }
 
       .menu--menu ul,li ,  .text{
          font-size:14px;
       }
 
-      .menu{
-         height:50%;
-         background-size: cover;
-         
-      }
+    
 
       .text p {
          font-size:20px;
@@ -86,6 +93,12 @@ export const HeaderArea = styled.div `
           margin-bottom: 50px;
 
         }
+   }
+
+   @media (min-width: 400px) AND (max-width: 599px) {
+      .menu--menu{
+         margin-left: 00px;
+      }
    }
 
 `

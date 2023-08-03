@@ -10,14 +10,14 @@ export const Nav = () => {
 
             <HeaderArea>
                <div className="menu">
-                    <div className="logo1">
-                        <img src={logo2} />
+                    <div className="menu--menu">
+                        <Menu />                      
                     </div>
                     <div className="text">
                       {/* <p>Sejá Bem vindo</p> */}
                     </div>
-                   <div className="menu--menu">
-                        <Menu />
+                   <div className="logo1">
+                     <img src={logo2} />
                    </div>
                </div>
             </HeaderArea>
