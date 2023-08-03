@@ -1,6 +1,6 @@
 
 
-import logo1 from '../../../img/soldador2.jpg';
+import logo1 from '../../../img/soldador4.jpg';
 
 
 
@@ -63,6 +63,8 @@ export const HeaderArea = styled.div `
 
        .menu{
          flex-direction: column;
+         background-size: cover;
+         
        }
    }
 
@@ -74,7 +76,6 @@ export const HeaderArea = styled.div `
       .menu{
          flex-direction: column;
          height:50%;
-         background-size: cover;
          
       }
 
