@@ -52,13 +52,13 @@ export const HeaderArea = styled.div `
    @media (min-width: 601px) AND (max-width: 1024px) {
 
       .menu--menu{
-         margin-left: -290px;
+         margin-left: -100px;
       }
 
 
       .menu, .logo1 ,img{
          width: 100%;
-         height: 50%;
+         height: 70%;
        }
 
        .menu{
@@ -90,8 +90,7 @@ export const HeaderArea = styled.div `
 
       .logo, img{
           width: 100%;
-          margin-bottom: 50px;
-
+         height: 70%;
         }
    }
 
