@@ -67,6 +67,18 @@ export const Menu = () =>{
               > Galpões             
               </Link>
             </Nav.Link>
+
+            <Nav.Link>
+              <Link className="menu-item"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              > Sobre Nós             
+              </Link>
+            </Nav.Link>
 {/*
 
         <NavDropdown.Item>

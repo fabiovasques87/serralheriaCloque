@@ -11,12 +11,13 @@ import { Link } from "react-scroll";
 
 import estruturaMetalica from '../../../img/estrutura-metalica.png';
 import estruturaMetalicaArquitetura from '../../../img/estrutura-metalica-arquitetura.png'
-import telhasGalvalume from '../../../img/telhasGalvalume.jpeg';
-import telhasTermoAcusticas from '../../../img/telhasTermoacusticas.jpeg';
-import telhasSanduiche from '../../../img/telhasanduiche.png';
+import telhasGalvalume from '../../../img/telha-galvalume.jpeg';
+import telhasTermoAcusticas from '../../../img/telhas-termoacusticas.jpg';
+import telhasSanduiche from '../../../img/telhasSanduiche.png';
 import galpao1 from '../../../img/galpao1.png';
 import galpao2 from '../../../img/galpao 2.png';
 import galpao3 from '../../../img/galpao 3.png';
+import logo from '../../../img/logo4.png';
 
 
 
@@ -143,12 +144,11 @@ export const Section = () => {
                               <img src={telhasGalvalume} />
                               </div>
                         <div  className="estrutura--metalica--desc">
-                            <ul>
-                                <li>Redução no tempo de contrução</li>
-                                <li>Qualidade e segurança</li>
-                                <li>Responsabilidade ambiental</li>
-                                <li>Flexibilidade de uso</li>
-                            </ul>
+                            <p>
+                            são a solução moderna, eficaz e económica em coberturas e fechamentos laterais, para
+                             os mais variados tipos de empreendimentos e edificações. Super-resistentes a intempéries,
+                              inclusive nos rigorosos ambientes marítimos e industriais.
+                            </p>
                         </div>
                         <div className="btn">
                             <div className="btn--2">
@@ -175,12 +175,11 @@ export const Section = () => {
                             <img src={telhasTermoAcusticas} />
                             </div>
                         <div  className="estrutura--metalica--desc">
-                            <ul>
-                                <li>Redução no tempo de contrução</li>
-                                <li>Qualidade e segurança</li>
-                                <li>Responsabilidade ambiental</li>
-                                <li>Flexibilidade de uso</li>
-                            </ul>
+                           <p>
+                           são perfeitas para projetos que exigem ótimo acabamento com isolamento térmico e acústico, que minimizam gastos com energia, refrigeração e controle de emissões sonoras externas em processos produtivos, personalização ( é feita sobre medida), fácil manutenção e durabilidade.
+                            Além de promover ambientes com condições mais agradáveis para se trabalhar, refletindo, inclusive, em ganhos de produtividade.
+                           </p>
+                          
                         </div>
                         <div className="btn">
                             <div className="btn--2">
@@ -208,8 +207,8 @@ export const Section = () => {
                              </div>
                             <div  className="estrutura--metalica--desc">
                                <p>
-                                A solução moderna, eficaz e econômica em coberturas e fechamentos laterais, 
-                                para variados tipos  de edificações.super-resistentes a ...
+                               são composta por duas telhas metálicas formando um “sanduíche” com o núcleo em EPS (poliestireno), 
+                               criando um produto novo, dotado de grande rigidez, de alta resistência térmica e de grande isolamento a ruídos externos.
                                </p>
                             </div>
                             <div className="btn">
@@ -338,7 +337,29 @@ export const Section = () => {
 
                     </div>
 
-                   
+                    <div className="separador"></div>
+
+
+                    <div className="about" id="about">
+                        <p>
+                            Sobre Nós
+                        </p>
+                                
+                    </div>
+                    <div className="about--items">
+                            <div className="logo--about">
+                                 <img src={logo} />
+                            </div>
+                            <div className="about--texto">
+                                <span>CLOQUE ESTRUTURAS METALICAS E TELHAS</span> 
+                                &nbsp; é uma empresa que trabalha  à mais de 50 anos no segmento de fabricação e a montagem de estruturas metálicas e telhas de aluzinco, para coberturas de edificações que exijam um diferencial de qualidade e necessitem atender projetos de pequenos, médios e grandes portes com segurança e sofisticação. 
+Tendo o compromisso em oferecer o melhor custo beneficio aos nossos clientes, utilizando mão de obra qualificada e equipamentos modernos, com uma vasta experiência no ramo, visando qualidade e agilidade.
+
+                            </div>
+                          
+                    
+                    </div>
+                               
             
             <ScrollToTopButton  />
 

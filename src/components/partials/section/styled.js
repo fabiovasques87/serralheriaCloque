@@ -138,8 +138,38 @@ export const HeaderArea = styled.div `
             font-size:60px;
             color:#008000;
         }
+
+        .about{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-weight: bold;
+            font-size: 32px;
+            text-transform: uppercase;
+        }
+        .about--items{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+            .logo--about, img{
+                height: 300px;
+            }
+            .about--texto{
+                text-align: justify;
+                margin-right:50px;
+                margin-left:50px;
+
+
+                span{
+                    text-weight: bold;
+                    font-size: 22px;
+                }
+            }
+        }
         
-        @media (max-width: 700px){
+        @media (max-width: 900px){
 
          
 
@@ -159,6 +189,9 @@ export const HeaderArea = styled.div `
                 margin-right:10px;
             }
            
+            .about--items{
+                flex-direction: column;
+            }
           
            
       }
