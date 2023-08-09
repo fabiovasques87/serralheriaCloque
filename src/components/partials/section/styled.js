@@ -192,6 +192,10 @@ export const HeaderArea = styled.div `
             .about--items{
                 flex-direction: column;
             }
+
+            .logo--about, img{
+                width: 350px;
+            }
           
            
       }
