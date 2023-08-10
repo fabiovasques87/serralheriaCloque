@@ -12,12 +12,12 @@ import { Link } from "react-scroll";
 import estruturaMetalica from '../../../img/estrutura-metalica.png';
 import estruturaMetalicaArquitetura from '../../../img/estrutura-metalica-arquitetura.png'
 import telhasGalvalume from '../../../img/telha-galvalume.jpeg';
-import telhasTermoAcusticas from '../../../img/telhas-termoacusticas.jpg';
+import telhasTermoAcusticas from '../../../img/telhas termo acustíca-atualjpeg';
 import telhasSanduiche from '../../../img/telhasSanduiche.png';
 import galpao1 from '../../../img/galpao1.png';
 import galpao2 from '../../../img/galpao 2.png';
 import galpao3 from '../../../img/galpao 3.png';
-import logo from '../../../img/logo4.png';
+import logo from '../../../img/fundo-title2.png';
 
 
 
@@ -43,7 +43,7 @@ export const Section = () => {
                    
                     <div class="item" >
                         <div className="estrutura--metalica--tile">
-                            <p>estruturas metalicas</p>
+                            {/* <p>estruturas metalicas</p> */}
                         </div>
                         <div
                             className="estrutura--metalica--img"
@@ -242,7 +242,7 @@ export const Section = () => {
 
                     <div class="item">
                             <div className="estrutura--metalica--tile">
-                                <p>Galpão</p>
+                                {/* <p>Galpão</p> */}
                             </div>
                             <div
                             className="estrutura--metalica--img"
@@ -273,7 +273,7 @@ export const Section = () => {
 
                         <div class="item">
                         <div className="estrutura--metalica--tile">
-                            <p>Galpão</p>
+                            {/* <p>Galpão</p> */}
                         </div>
                         <div
                             className="estrutura--metalica--img"
@@ -304,7 +304,7 @@ export const Section = () => {
 
                     <div class="item">
                         <div className="estrutura--metalica--tile">
-                            <p>Galpão</p>
+                            {/* <p>Galpão</p> */}
                         </div>
                         <div
                             className="estrutura--metalica--img"
@@ -351,7 +351,7 @@ export const Section = () => {
                                  <img src={logo} />
                             </div>
                             <div className="about--texto">
-                                <span>CLOQUE ESTRUTURAS METALICAS E TELHAS</span> 
+                                <div className="about--title">CLOQUE ESTRUTURAS METALICAS E TELHAS</div> 
                                 &nbsp; é uma empresa que trabalha  à mais de 50 anos no segmento de fabricação e a montagem de estruturas metálicas e telhas de aluzinco, para coberturas de edificações que exijam um diferencial de qualidade e necessitem atender projetos de pequenos, médios e grandes portes com segurança e sofisticação. 
 Tendo o compromisso em oferecer o melhor custo beneficio aos nossos clientes, utilizando mão de obra qualificada e equipamentos modernos, com uma vasta experiência no ramo, visando qualidade e agilidade.
 

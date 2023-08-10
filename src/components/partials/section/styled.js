@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderArea = styled.div `
 
+  
 
     .separador{
         margin-top: 50px;
@@ -10,14 +11,16 @@ export const HeaderArea = styled.div `
 
     .title{
      
-        font-family: SQUARED, serif;
+        // font-family: SQUARED, serif;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
         margin-top:50px;
         margin-bottom:50px;
       
         p{
-            font-family: SQUARED, serif;
-            font-size:32px;
-            font-weight: bold;
+            // font-family: SQUARED, serif;
+            font-family: 'Roboto', sans-serif;
+            font-size:30px;
             text-align: center;
         }
 
@@ -29,15 +32,16 @@ export const HeaderArea = styled.div `
         font-size:16px;
         text-align: justify;
         margin-bottom:50px;
-        font-family: SQUARED, serif;
+        // font-family: SQUARED, serif;
+        font-family: 'Roboto', sans-serif;
         margin-left:10px;
         margin-right:10px;
 
     }
 
     .section--services{
-
-        font-family: SQUARED, serif;
+        font-family: 'Roboto', sans-serif;
+        // font-family: SQUARED, serif;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 20px;
@@ -75,7 +79,7 @@ export const HeaderArea = styled.div `
         justify-content: space-between;
         padding: 20px;
         text-align: center;
-        height: 530px;
+        height: 650px;
         border: 1px solid #fff;
 
         .btn{
@@ -89,7 +93,6 @@ export const HeaderArea = styled.div `
 
         .estrutura--metalica--tile p {
             font-size:20px;
-            font-weight: bold;
             text-transform: capitalize;
         }
 
@@ -143,9 +146,10 @@ export const HeaderArea = styled.div `
             display: flex;
             justify-content: space-around;
             align-items: center;
-            text-weight: bold;
             font-size: 32px;
             text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-weight:500;
         }
         .about--items{
             display: flex;
@@ -162,9 +166,12 @@ export const HeaderArea = styled.div `
                 margin-left:50px;
 
 
-                span{
-                    text-weight: bold;
+                .about--title{
+                    text-align: justify;
+                    font-weight:500;
                     font-size: 22px;
+                    font-family: 'Roboto', sans-serif;
+
                 }
             }
         }
@@ -196,6 +203,14 @@ export const HeaderArea = styled.div `
             .logo--about, img{
                 width: 350px;
             }
+          
+
+            .about--title{
+                text-align:center;
+                font-size:14px;
+                font-weight:500;
+            }
+            
           
            
       }
