@@ -75,7 +75,7 @@ export const Section = () => {
 
                     <div class="item">
                         <div className="estrutura--metalica--tile">
-                            <p>estruturas metalicas na arquitetura</p>
+                            {/* <p>estruturas metalicas na arquitetura</p> */}
                         </div>
                         <div
                             className="estrutura--metalica--img"

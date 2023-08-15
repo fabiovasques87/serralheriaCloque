@@ -2,7 +2,9 @@ import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {LandingPage} from './components/partials/LandingPage'
+
+
+import MyRoutes from './routes/MyRoutes';
 
 
 
@@ -15,7 +17,7 @@ export const App = () =>{
 
   return(
   <div>
-    <LandingPage />
+    <MyRoutes />
   </div>
   );
 }

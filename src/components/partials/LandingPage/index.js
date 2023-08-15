@@ -14,6 +14,8 @@ export const LandingPage = () =>{
             <Nav />
             <Section />
             <Footer />
+
+
         </div>
     );
 }
