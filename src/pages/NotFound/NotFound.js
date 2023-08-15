@@ -11,7 +11,7 @@ export const NotFound = () =>{
         <div>
             <HeaderArea>
                 <Nav /> 
-                <div className="NotFound">A página que você está procurando não foi encontrada.<br />
+                <div className="NotFound">A página que você está procurando não foi encontrada, ou ainda está em desenvolvimento<br />
             
                     <Link to="/">Voltar para a Página Inicial</Link>
                 </div>

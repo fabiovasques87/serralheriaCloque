@@ -6,7 +6,8 @@ import ScrollToTopButton from "../../buttonScroll";
 import React , { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { Link } from "react-scroll";
+import { Link } from 'react-router-dom';
+
 
 
 import estruturaMetalica from '../../../img/estrutura-metalica.png';
@@ -68,7 +69,9 @@ export const Section = () => {
                         </div>
                         <div className="btn">
                             <div className="btn--2">
-                                <Btn />
+                            <Link to="/estrutura"> <Btn /></Link>
+                                
+                                
                             </div>                               
                         </div>
                     </div>
@@ -98,7 +101,7 @@ export const Section = () => {
                         </div>
                         <div className="btn">
                             <div className="btn--2">
-                                <Btn />
+                            <Link to="/EstruturaMetalicaArquitetura"> <Btn /></Link>
                             </div>                               
                         </div>
                     </div>
