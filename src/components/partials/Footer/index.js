@@ -14,7 +14,7 @@ export const Footer = () => {
 
                         <div className="footer--left--contato">
                                 <p><FontAwesomeIcon icon={faWhatsapp} /> (53) 9 99999999 </p>
-                                <p> claudia@email.com.br </p>
+                                <p> cloqueacasadoserralheiro@gmail.com </p>
                                 <p> <FontAwesomeIcon icon={faInstagram} /> cloquecasadoserralheiro </p>
 
                         </div>

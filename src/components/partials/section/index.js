@@ -32,12 +32,12 @@ export const Section = () => {
                 <div className="title" id="estrutura-metalica">
                     <p>Estruturas metalicas</p>
                 </div>
-                    <div className="sub-title">
+                    {/* <div className="sub-title">
                            teste é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
                             e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
                             é simplesmente uma simulação de texto da indústria tipográfica e de impressos
                             e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
-                    </div>
+                    </div> */}
                 
 
                 <div class="section--services" >
@@ -109,6 +109,107 @@ export const Section = () => {
                    
                    
                 </div>
+
+                
+                <div class="section--services" >
+
+                    <div class="item">
+                            <div className="estrutura--metalica--tile">
+                                {/* <p>Galpão</p> */}
+                            </div>
+                            <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                            >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
+                            <img src={galpao1} />
+                            </div>
+                            <div  className="estrutura--metalica--desc">
+                               <p>
+                                Ótimo investimento pela resistência do material e confortabilidade. 
+                                Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
+                                por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
+                               </p>
+                            </div>
+                            <div className="btn">
+                                <div className="btn--2">
+                                    <Btn />
+                                </div>                               
+                            </div>
+                        </div>
+
+                        <div class="item">
+                        <div className="estrutura--metalica--tile">
+                            {/* <p>Galpão</p> */}
+                        </div>
+                        <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
+                             <img src={galpao2} />
+                             </div>
+                        <div  className="estrutura--metalica--desc">
+                        <p>
+                            Ótimo investimento pela resistência do material e confortabilidade. 
+                            Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
+                            por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
+                        </p>
+                        </div>
+                        <div className="btn">
+                            <div className="btn--2">
+                                <Btn />
+                            </div>                               
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div className="estrutura--metalica--tile">
+                            {/* <p>Galpão</p> */}
+                        </div>
+                        <div
+                            className="estrutura--metalica--img"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            {isHovered && (
+                                <div className="efeito">
+                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
+                                    <p>Entrar em contato</p>
+                                </div>
+                            )}
+                            <img src={galpao3} />
+                            </div>
+                        <div  className="estrutura--metalica--desc">
+                        <p>
+                            Ótimo investimento pela resistência do material e confortabilidade. 
+                            Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
+                            por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
+                        </p>
+                        </div>
+                        <div className="btn">
+                            <div className="btn--2">
+                                <Btn />
+                            </div>                               
+                        </div>
+                    </div>
+
+                    
+
+                    </div>
+
                
               <div className="separador"></div>
 
@@ -116,7 +217,7 @@ export const Section = () => {
                     <p>Telhas</p>
                 </div>
                     
-
+{/* 
                     <div className="sub-title">
                     
                          é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
@@ -124,7 +225,7 @@ export const Section = () => {
                         é simplesmente uma simulação de texto da indústria tipográfica e de impressos
                         e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
                         
-                    </div>
+                    </div> */}
                 
 
                 <div class="section--services" >
@@ -228,119 +329,7 @@ export const Section = () => {
 
                 <div className="separador"></div>
 
-                <div className="title" id="galpao">
-                    <p>GALPÕES</p>
-                </div>
-                                
-
-                    <div className="sub-title">
-                    é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
-                    e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
-                    é simplesmente uma simulação de texto da indústria tipográfica e de impressos
-                    e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
-                    </div>
-               
-                
-                <div class="section--services" >
-
-                    <div class="item">
-                            <div className="estrutura--metalica--tile">
-                                {/* <p>Galpão</p> */}
-                            </div>
-                            <div
-                            className="estrutura--metalica--img"
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                            >
-                            {isHovered && (
-                                <div className="efeito">
-                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
-                                    <p>Entrar em contato</p>
-                                </div>
-                            )}
-                            <img src={galpao1} />
-                            </div>
-                            <div  className="estrutura--metalica--desc">
-                               <p>
-                                Ótimo investimento pela resistência do material e confortabilidade. 
-                                Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
-                                por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
-                               </p>
-                            </div>
-                            <div className="btn">
-                                <div className="btn--2">
-                                    <Btn />
-                                </div>                               
-                            </div>
-                        </div>
-
-                        <div class="item">
-                        <div className="estrutura--metalica--tile">
-                            {/* <p>Galpão</p> */}
-                        </div>
-                        <div
-                            className="estrutura--metalica--img"
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >
-                            {isHovered && (
-                                <div className="efeito">
-                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
-                                    <p>Entrar em contato</p>
-                                </div>
-                            )}
-                             <img src={galpao2} />
-                             </div>
-                        <div  className="estrutura--metalica--desc">
-                        <p>
-                            Ótimo investimento pela resistência do material e confortabilidade. 
-                            Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
-                            por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
-                        </p>
-                        </div>
-                        <div className="btn">
-                            <div className="btn--2">
-                                <Btn />
-                            </div>                               
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div className="estrutura--metalica--tile">
-                            {/* <p>Galpão</p> */}
-                        </div>
-                        <div
-                            className="estrutura--metalica--img"
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >
-                            {isHovered && (
-                                <div className="efeito">
-                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
-                                    <p>Entrar em contato</p>
-                                </div>
-                            )}
-                            <img src={galpao3} />
-                            </div>
-                        <div  className="estrutura--metalica--desc">
-                        <p>
-                            Ótimo investimento pela resistência do material e confortabilidade. 
-                            Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
-                            por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
-                        </p>
-                        </div>
-                        <div className="btn">
-                            <div className="btn--2">
-                                <Btn />
-                            </div>                               
-                        </div>
-                    </div>
-
-                    
-
-                    </div>
-
-                    <div className="separador"></div>
+              
 
 
                     <div className="about" id="about">
@@ -354,8 +343,9 @@ export const Section = () => {
                                  <img src={logo} />
                             </div>
                             <div className="about--texto">
-                                <div className="about--title">CLOQUE ESTRUTURAS METALICAS E TELHAS</div> 
-                                &nbsp; é uma empresa que trabalha  à mais de 50 anos no segmento de fabricação e a montagem de estruturas metálicas e telhas de aluzinco, para coberturas de edificações que exijam um diferencial de qualidade e necessitem atender projetos de pequenos, médios e grandes portes com segurança e sofisticação. 
+                                <div className="about--title">CLOQUE ESTRUTURAS METALICAS E TELHAS</div> <br />
+                                &nbsp; É uma empresa que trabalha  à mais de 50 anos no segmento de fabricação e a montagem de estruturas metálicas e telhas de aluzinco, para coberturas de edificações que exijam um diferencial de qualidade e necessitem atender projetos de pequenos, médios e grandes portes com segurança e sofisticação.
+                                <br /><br /> 
 Tendo o compromisso em oferecer o melhor custo beneficio aos nossos clientes, utilizando mão de obra qualificada e equipamentos modernos, com uma vasta experiência no ramo, visando qualidade e agilidade.
 
                             </div>

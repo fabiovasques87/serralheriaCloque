@@ -5,7 +5,7 @@ export const HeaderArea = styled.div `
   
 
     .separador{
-        margin-top: 50px;
+        margin-top: 10px;
         border: 1px solid rgba(0, 0, 0, 0.5);
     }
 
@@ -14,8 +14,8 @@ export const HeaderArea = styled.div `
         // font-family: SQUARED, serif;
         font-weight: 500;
         font-family: 'Roboto', sans-serif;
-        margin-top:50px;
-        margin-bottom:50px;
+        margin-top:10px;
+        margin-bottom:10px;
       
         p{
             // font-family: SQUARED, serif;
@@ -45,7 +45,7 @@ export const HeaderArea = styled.div `
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 20px;
-        margin-top:50px;
+        margin-top:10px;
 
         img{
             width:490px;
@@ -74,12 +74,12 @@ export const HeaderArea = styled.div `
 
     .item{
 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-between;
         padding: 20px;
         text-align: center;
-        height: 650px;
+        height: 620px;
         border: 1px solid #fff;
 
         .btn{
@@ -87,8 +87,7 @@ export const HeaderArea = styled.div `
             display: flex;
             justify-content: center;
             align-items:center;
-
-
+           
         }
 
         .estrutura--metalica--tile p {
@@ -150,6 +149,7 @@ export const HeaderArea = styled.div `
             text-transform: uppercase;
             font-family: 'Roboto', sans-serif;
             font-weight:500;
+            margin-top:30px;
         }
         .about--items{
             display: flex;
@@ -178,7 +178,9 @@ export const HeaderArea = styled.div `
         
         @media (max-width: 900px){
 
-         
+         .title, p{
+            
+         }
 
             .estrutura--metalica--img img{
                 width: 350px;
