@@ -28,7 +28,7 @@ export const HeaderArea = styled.div `
 
       
         
-        
+
     }
     .sub-title{
         font-size:16px;
@@ -37,7 +37,6 @@ export const HeaderArea = styled.div `
         // font-family: SQUARED, serif;
         font-family: 'Roboto', sans-serif;
         margin-left:10px;
-        margin-right:10px;
 
     }
 
@@ -110,7 +109,7 @@ export const HeaderArea = styled.div `
         }
 
             img{
-                width:490px;
+                width:420px;
                 height:200px;
             }
       
@@ -176,8 +175,13 @@ export const HeaderArea = styled.div `
                 }
             }
         }
+
+       
+
         
         @media (max-width: 900px){
+
+         
 
          .title, p{
             
@@ -214,10 +218,12 @@ export const HeaderArea = styled.div `
                 font-weight:500;
             }
             
+           
           
            
       }
 
+     
    
 
 `
