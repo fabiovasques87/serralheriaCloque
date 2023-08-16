@@ -1,7 +1,10 @@
 
 import { HeaderArea } from "./styled";
 
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+
+import { Link } from 'react-router-dom';
+
 
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -15,7 +18,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 
-export const Menu = () =>{
+export const Menu2 = () =>{
     return (
         <div>
             <HeaderArea>
@@ -35,50 +38,13 @@ export const Menu = () =>{
             <Nav.Link>
               <Link className="menu-item"
                 activeClass="active"
-                to="estrutura-metalica"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >     Estruturas Metálicas         
+                to="/"                
+              >     Home        
               </Link>
             </Nav.Link>
 
-            <Nav.Link>
-              <Link className="menu-item"
-                activeClass="active"
-                to="telhas"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >    Telhas          
-              </Link>
-            </Nav.Link>
 
-            {/* <Nav.Link>
-              <Link className="menu-item"
-                activeClass="active"
-                to="galpao"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              > Galpões             
-              </Link>
-            </Nav.Link> */}
-
-            <Nav.Link>
-              <Link className="menu-item"
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              > Sobre Nós             
-              </Link>
-            </Nav.Link>
+            
 {/*
 
         <NavDropdown.Item>

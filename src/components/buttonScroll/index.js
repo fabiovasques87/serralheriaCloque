@@ -1,9 +1,16 @@
 
+
+import { HeaderArea } from "./styled";
+
 import React from "react";
 import { Link } from "react-scroll";
 
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+
 
 
 const ScrollToTopButton = () => {
@@ -33,7 +40,33 @@ const ScrollToTopButton = () => {
 <FontAwesomeIcon icon={faArrowUp} />
 
     </Link>
+
+<HeaderArea>
+      <div
+        style={{
+          position: "fixed",
+          bottom: "20px",
+          left: "20px",
+          cursor: "pointer",
+          fontSize: '55px',
+          color: 'green',
+          
+        }}
+      >
+
+        <a href="https://wa.me/53999010150" >
+         <FontAwesomeIcon icon={faWhatsapp} />
+        </a>
+
+
+      </div>
+
+      </HeaderArea>
+
     </div>
+
+      
+
   );
 };
 

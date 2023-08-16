@@ -69,7 +69,7 @@ export const Section = () => {
                         </div>
                         <div className="btn">
                             <div className="btn--2">
-                            <Link to="/estrutura"> <Btn /></Link>
+                            <Link to="/estruturaMetalica"> <Btn /></Link>
                                 
                                 
                             </div>                               
@@ -101,7 +101,7 @@ export const Section = () => {
                         </div>
                         <div className="btn">
                             <div className="btn--2">
-                            <Link to="/EstruturaMetalicaArquitetura"> <Btn /></Link>
+                            <Link to="/EstruturaMetalica"> <Btn /></Link>
                             </div>                               
                         </div>
                     </div>
@@ -294,7 +294,7 @@ export const Section = () => {
 
                     <div class="item" >
                             <div className="estrutura--metalica--tile">
-                                <p>Tehas Sanduíche</p>
+                                <p>Telhas Sanduíche</p>
                             </div>
                             <div
                             className="estrutura--metalica--img"
