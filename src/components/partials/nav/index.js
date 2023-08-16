@@ -2,6 +2,8 @@
 import { HeaderArea } from "./styled";
 import { Menu } from "../../menu";
 import logo2 from '../../../img/logo3-modificado.png';
+
+
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 export const Nav = () => {
@@ -19,6 +21,7 @@ export const Nav = () => {
                    <div className="logo1">
                      <img src={logo2} />
                    </div>
+
                </div>
             </HeaderArea>
         </div>

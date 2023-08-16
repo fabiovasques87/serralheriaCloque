@@ -26,15 +26,17 @@ export const HeaderArea = styled.div `
         height:22rem;
         font-size:22px;
         font-weight: bold;
-        height: 500px;
+        height: 400px;
 
    
 
-        .menu, .logo1 ,img{
-         margin-top: 30px;
-         height:500px;
-        }
+        
    }
+
+   .logo1 ,img{
+      margin-top: 30px;
+      height:500px;
+     }
 
    .menu--menu ul,li{
       cursor: pointer;
@@ -56,9 +58,9 @@ export const HeaderArea = styled.div `
       }
 
 
-      .menu, .logo1 ,img{
+       .logo1 ,img{
          width: 100%;
-         height: 70%;
+         height:100%;
        }
 
        .menu{
@@ -83,22 +85,28 @@ export const HeaderArea = styled.div `
          font-size:14px;
       }
 
+     
     
 
       .text p {
          font-size:20px;
       }
 
-      .logo, img{
-          width: 100%;
-         height: 70%;
-        }
+       .logo1 ,img{
+         width: 100%;
+         height:100%;
+       }
    }
 
    @media (min-width: 400px) AND (max-width: 599px) {
       .menu--menu{
          margin-left: -100px;
       }
+
+      .logo1 ,img{
+         width: 100%;
+         height:100%;
+       }
    }
 
 `

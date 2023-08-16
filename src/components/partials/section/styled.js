@@ -1,11 +1,13 @@
 import styled from 'styled-components';
+import LazyBackgroundImage from "../../carregamentoImg";
+
 
 export const HeaderArea = styled.div `
 
   
 
     .separador{
-        margin-top: 10px;
+        margin-top: 40px;
         border: 1px solid rgba(0, 0, 0, 0.5);
     }
 
@@ -44,9 +46,8 @@ export const HeaderArea = styled.div `
         // font-family: SQUARED, serif;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        grid-gap: 20px;
+        grid-gap: 50px;
         margin-top:10px;
-
         img{
             width:490px;
             height:200px;

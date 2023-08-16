@@ -29,7 +29,7 @@ export const HeaderArea = styled.div `
     @media (max-width: 900px){
 
         .carousel, img{
-            width:100%;
+            width:80%;
             height:200px;
         }
 
