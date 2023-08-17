@@ -124,7 +124,7 @@ export const Section = () => {
                     alt="Second slide"
                     />
                     <Carousel.Caption>
-                    <h5>ESTRUTIRAS METALICAS NA ARQUITETURA</h5>
+                    <h5>ESTRUTURAS METALICAS NA ARQUITETURA</h5>
                     
                     </Carousel.Caption>
                 </Carousel.Item>
