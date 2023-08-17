@@ -11,9 +11,9 @@ export const HeaderArea = styled.div `
     left: 20px;
     cursor: pointer;
     color: green;
-    font-size: 80px;
+    font-size: 60px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 0px;
     
 }
 

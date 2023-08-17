@@ -13,11 +13,16 @@ export const Footer = () => {
                 <div className="footer">
 
                         <div className="footer--left--contato">
-                                <p><FontAwesomeIcon icon={faWhatsapp} /> (53) 9 99010150 </p>
-                                <p> cloqueacasadoserralheiro@gmail.com </p>
-                                <p> <FontAwesomeIcon icon={faInstagram} /> cloquecasadoserralheiro </p>
+                                <span>Contatos:</span>
+                                <p>cloqueacasadoserralheiro@gmail.com &nbsp;&nbsp;
+                                    <FontAwesomeIcon icon={faWhatsapp} /> (53) 9 99010150 <br />
+                                 
+
+                                <FontAwesomeIcon icon={faInstagram} /> cloquecasadoserralheiro </p>
 
                         </div>
+
+                        <hr />
                   
                         <div className="footer--right">
                                 <form>

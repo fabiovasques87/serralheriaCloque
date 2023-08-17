@@ -12,9 +12,14 @@ export const HeaderArea = styled.div `
     display:flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Saira Semi Condensed', sans-serif;
+    font-family: font-family: 'Roboto', sans-serif;
+   
   
 
+}
+
+hr {
+    display: none;
 }
 
 
@@ -64,8 +69,34 @@ export const HeaderArea = styled.div `
 
 @media (max-width: 600px){
 
-    footer--left--contato, p{
-        font-size:12px;
+    .footer{
+        flex-direction: column;
+        height: 300px;
+        margin-top:50px;
+    }
+
+    .footer--right form{
+        width: 300px;
+        margin-top: 0px;
+    }
+
+    hr {
+        display: flex;
+        border: 1px solid #FFF;
+        width: 100%;
+        margin-bottom:10px;
+        margin-top:0px;
+
+    }
+
+    .footer--left-contato{
+       
+       
+    }
+
+    .footer--left--contato, p{
+        font-size:14px;
+        margin: 5px;
     }
 
    
@@ -76,10 +107,18 @@ export const HeaderArea = styled.div `
  
     }
 
+    .footer--left--contato span{
+        display: flex;
+        justify-content: center;
+    }
+
     .footer--bottom span{
         font-size:10px;
     }
     
+    
+
+
 }
 
 `
