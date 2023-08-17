@@ -1,5 +1,6 @@
 
 import { HeaderArea } from './styled';
+import ScrollToTopButton from "../../../src/components/buttonScroll";
 
 
 import {Nav2} from '../../components/partials/nav2' 
@@ -68,6 +69,8 @@ export const TelhasGalvalume = () => {
 
         <Footer />
     </HeaderArea>
+    <ScrollToTopButton />
+
 
         </div>
     )
