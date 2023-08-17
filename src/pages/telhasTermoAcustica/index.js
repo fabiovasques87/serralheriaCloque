@@ -1,10 +1,13 @@
 
 import { HeaderArea } from './styled';
 import ScrollToTopButton from "../../../src/components/buttonScroll";
+import { IconeHome } from '../../components/iconeHome';
 
+import { Link } from 'react-router-dom';
 
 import {Nav2} from '../../components/partials/nav2' 
 import { Footer } from '../../components/partials/Footer';
+import { TextoCarrouselTop } from '../../components/texto';
 
 import Carousel from 'react-bootstrap/Carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
@@ -24,8 +27,9 @@ export const TelhasTermoAcustica = () =>{
 
                 <div className='containner'>
 
+      
                 
-
+        <TextoCarrouselTop />
          <Carousel data-bs-theme="light" className='carousel'>
             <Carousel.Item>
                 <img
@@ -68,6 +72,10 @@ export const TelhasTermoAcustica = () =>{
 
         <ScrollToTopButton />
         <Footer />
+        
+        <div className='containner-icon'>
+            <Link to="/" > <IconeHome /> </Link>           
+        </div>
     </HeaderArea>
 
         </div>

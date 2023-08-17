@@ -11,7 +11,7 @@ export const Nav2 = () => {
             <HeaderArea>
                <div className="menu">
                     <div className="menu--menu">
-                        <Menu2 />                      
+                        {/* <Menu2 /> */}                      
                     </div>
                     <div className="text">
                       {/* <p>Sejá Bem vindo</p> */}

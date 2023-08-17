@@ -8,7 +8,13 @@ export const HeaderArea = styled.div `
     .carousel {
         width:50%;
         height:50%;
-        
+        margin:30px;
+
+    }
+    .containner-icon{
+        display:flex;
+        justify-content:center;
+        align-items: center;
     }
 
     .carousel, img{
@@ -18,6 +24,7 @@ export const HeaderArea = styled.div `
 
     .containner{
         display: flex;
+        flex-direction: column;
         justify-content:center;
         align-items:center;
         margin-top:30px;
@@ -33,6 +40,11 @@ export const HeaderArea = styled.div `
             width:80%;
             height:250px;
         }
+
+        .containner-icon{
+            margin-left: -70px;
+        }
+
 
     }
 

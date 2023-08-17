@@ -26,7 +26,7 @@ export const HeaderArea = styled.div `
         height:22rem;
         font-size:22px;
         font-weight: bold;
-        height: 500px;
+        height: 400px;
 
    
 
@@ -53,29 +53,38 @@ export const HeaderArea = styled.div `
 
       .menu--menu{
          margin-left: -100px;
+        
       }
 
 
       .menu, .logo1 ,img{
          width: 100%;
-         height: 70%;
+         height: 100%;
        }
 
        .menu{
          flex-direction: column;
          background-size: cover;
+         height: 300px;
+
          
        }
    }
 
    @media (max-width: 600px){
+
+      .menu, logo1{
+         height:50px;
+      }
+
       .menu--menu{
          margin-left: -290px;
       }
 
       .menu{
          flex-direction: column;
-         height:50%;
+         height: 300px;
+
          
       }
 
@@ -98,6 +107,11 @@ export const HeaderArea = styled.div `
    @media (min-width: 400px) AND (max-width: 599px) {
       .menu--menu{
          margin-left: -100px;
+      }
+      .menu{
+         height: 300px;
+         
+
       }
    }
 

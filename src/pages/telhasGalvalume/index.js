@@ -1,6 +1,8 @@
 
 import { HeaderArea } from './styled';
 import ScrollToTopButton from "../../../src/components/buttonScroll";
+import { TextoCarrouselTop } from '../../components/texto';
+import { IconeHome } from '../../components/iconeHome';
 
 
 import {Nav2} from '../../components/partials/nav2' 
@@ -12,6 +14,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import galpao from '../../../src/img/galpao 2.png';
 import galpao1 from '../../../src/img/galpao1.png';
 import galpao2 from '../../../src/img/galpao 3.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -25,7 +28,7 @@ export const TelhasGalvalume = () => {
 
                 <div className='containner'>
 
-                
+                <TextoCarrouselTop />
 
          <Carousel data-bs-theme="light" className='carousel'>
             <Carousel.Item>
@@ -68,9 +71,13 @@ export const TelhasGalvalume = () => {
         </div>
 
         <Footer />
+        <div className='containner-icon'>
+            <Link to="/" > <IconeHome /> </Link>
+           
+        </div>
     </HeaderArea>
     <ScrollToTopButton />
-
+    
 
         </div>
     )

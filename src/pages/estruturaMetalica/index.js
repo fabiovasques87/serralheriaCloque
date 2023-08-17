@@ -1,6 +1,7 @@
 import { HeaderArea } from './styled';
 import ScrollToTopButton from "../../../src/components/buttonScroll";
-
+import { IconeHome } from '../../components/iconeHome';
+import { Link } from 'react-router-dom';
 
 import {Nav2} from '../../components/partials/nav2' 
 import { Footer } from '../../components/partials/Footer';
@@ -67,6 +68,10 @@ export const EstruturaMetalica = () =>{
 
         <ScrollToTopButton />
         <Footer />
+        
+        <div className='containner-icon'>
+            <Link to="/" > <IconeHome /> </Link>           
+        </div>
     </HeaderArea>
 
         </div>
