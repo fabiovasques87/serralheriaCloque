@@ -10,13 +10,14 @@ export const HeaderArea = styled.div `
         margin:10px;
         border-radius:10px;
         cursor: pointer;
-
+        
        
 
         .btn--text{
             font-size:14px;
             color: #fff;
             padding:5px;
+            
         }
 
         .btn--text:hover{
@@ -29,6 +30,10 @@ export const HeaderArea = styled.div `
 
     .btn:hover {
         background-color: #4D8076;
+    }
+
+    a{
+        text-decoration: none;
     }
  
 

@@ -256,7 +256,7 @@ export const Section = () => {
                         </div>
                         <div className="btn">
                             <div className="btn--2">
-                                <Btn />
+                                <Link to="TelhasTermoAcustica" > <Btn /> </Link>                               
                             </div>                               
                         </div>
                     </div>
@@ -286,7 +286,7 @@ export const Section = () => {
                             </div>
                             <div className="btn">
                                 <div className="btn--2">
-                                    <Btn />
+                                    <Link to="/TelhasSanduiche" > <Btn /> </Link>                                   
                                 </div>                               
                             </div>
 

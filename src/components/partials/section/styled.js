@@ -58,6 +58,10 @@ export const HeaderArea = styled.div `
 
     }
 
+    a{
+        text-decoration: none;
+    }
+
     .section--services{
         font-family: 'Roboto', sans-serif;
         // font-family: SQUARED, serif;
@@ -101,7 +105,7 @@ export const HeaderArea = styled.div `
         border: 1px solid #fff;
 
         .btn{
-            // margin-top: auto;
+            margin-top: auto;
             display: flex;
             justify-content: center;
             align-items:center;
@@ -238,6 +242,8 @@ export const HeaderArea = styled.div `
            
             .btn--2{
                 width:100%;
+
+                
             }
 
             .sub-title {
