@@ -26,7 +26,7 @@ export const TelhasTermoAcustica = () =>{
 
                 
 
-         <Carousel data-bs-theme="dark" className='carousel'>
+         <Carousel data-bs-theme="light" className='carousel'>
             <Carousel.Item>
                 <img
                 className="d-block w-100 img"
