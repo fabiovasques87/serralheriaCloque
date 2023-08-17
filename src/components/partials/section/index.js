@@ -7,11 +7,14 @@ import React , { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+import Carousel from 'react-bootstrap/Carousel';
 
 
 
-import estruturaMetalica from '../../../img/estrutura-metalica.png';
-import estruturaMetalicaArquitetura from '../../../img/estrutura-metalica-arquitetura.png'
+import estruturaMetalica from '../../../img/ultimas/estrutura1.jpg';
+import estruturaMetalica2 from '../../../img/ultimas/estrutura2.jpg';
+import estruturaMetalica3 from '../../../img/ultimas/estrutura3.jpg';
+import estruturaMetalicaArquitetura from '../../../img/ultimas/estrutura4.jpg'
 import telhasGalvalume from '../../../img/telha-galvalume.jpeg';
 import telhasTermoAcusticas from '../../../img/telhas termo acustíca-atualjpeg';
 import telhasSanduiche from '../../../img/telhasSanduiche.png';
@@ -38,177 +41,142 @@ export const Section = () => {
                             é simplesmente uma simulação de texto da indústria tipográfica e de impressos
                             e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
                     </div> */}
+                <div className="estrutura--metalica--desc">
+
                 
 
-                <div class="section--services" >
-                   
-                    <div class="item" >
-                        <div className="estrutura--metalica--tile">
-                            {/* <p>estruturas metalicas</p> */}
-                        </div>
-                        <div
-                            className="estrutura--metalica--img"
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >
-                            {isHovered && (
-                                <div className="efeito">
-                                  <a href="https://wa.me/53999010150" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
-                                    <p>Entrar em contato</p>
-                                </div>
-                            )}
-                              <img src={estruturaMetalica} alt="Estrutura Metálica" />
-                 </div>
-                        <div  className="estrutura--metalica--desc">
-                            <ul>
-                                <li>Redução no tempo de contrução</li>
-                                <li>Qualidade e segurança</li>
-                                <li>Responsabilidade ambiental</li>
-                                <li>Flexibilidade de uso</li>
-                            </ul>
-                        </div>
-                        <div className="btn">
-                            <div className="btn--2">
-                            <Link to="/estruturaMetalica"> <Btn /></Link>
-                                
-                                
-                            </div>                               
-                        </div>
-                    </div>
+                        <p>
+                        Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos basicamente por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco. 
+                        Geralmente usados para fins logísticos, de armazenagem ou de produção industrial e rural.
+                        
 
-                    <div class="item">
-                        <div className="estrutura--metalica--tile">
-                            {/* <p>estruturas metalicas na arquitetura</p> */}
+                        <br />
+                        Quando construídos a partir de estruturas e materiais metálicos,
+                        os galpões se tornam mais resistentes e confortáveis, representando um ótimo investimento.
+                        </p>
+
+                        <div className="sub--title--carousel--top">
+                            Benefícios de estruturas metálicas:
                         </div>
-                        <div
-                            className="estrutura--metalica--img"
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >
-                            {isHovered && (
-                                <div className="efeito">
-                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
-                                    <p>Entrar em contato</p>
-                                </div>
-                            )}
-                            <img src={estruturaMetalicaArquitetura} />
-                            </div>
-                        <div  className="estrutura--metalica--desc">
-                            <p>
-                                Concede um melhor aproveitamento do espaço disponível, 
-                                enrriquecendo a estética e até possibilitando linhas ousadas
-                            </p>
-                        </div>
-                        <div className="btn">
-                            <div className="btn--2">
-                            <Link to="/EstruturaMetalica"> <Btn /></Link>
-                            </div>                               
-                        </div>
-                    </div>
+                        <p>
+                        Há uma redução de até 40% na construção quando comparado às estruturas de concreto. Por serem fabricadas sob medida, as 
+                        estruturas metálicas chegam prontas ao local da obra. Dessa forma, são instaladas mais rapidamente.
+                        
+                        <br />
+                        
+                            As estruturas metálicas podem ser <span>desmontadas e reaproveitadas.</span>
+                        </p>
+                        <p className="sub--title--carousel--top--info">
+                            <span>Resistência:</span> O aço é mais resistente ao calor, ao desgaste, à corrosão e a outros efeitos naturais do tempo.
+                        </p>
+
+                        <p>
+                            <span>A Estrutura Metálica </span>tem se apresentado como tendência mundial, e vem ganhando força para projetos de arquitetura e urbanismo. Isso se deve ao fato de que as estruturas de aço são muito versáteis, resistentes e duráveis. Além de conceder um melhor aproveitamento do espaço disponível, enriquecendo a estética e até possibilitando linhas ousadas. 
+                            O acabamento em ACM garante um visual diversificado e moderno.
+                        </p>
+
+                </div>
+                   
+                <div className='containner'>
+
+              
+
+            <Carousel data-bs-theme="dark" className='carousel'>
+                
+            <Carousel.Item>
+                    <img
+                    className="d-block w-100 img"
+                    src={estruturaMetalica2}
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h5>estruturaMetalica3</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100 img"
+                    src={estruturaMetalica3}
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h5>estruturaMetalica</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100 img"
+                    src={estruturaMetalica2}
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h5>estruturaMetalica2</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={estruturaMetalicaArquitetura}
+                    alt="Second slide"
+                    />
+                    <Carousel.Caption>
+                    <h5>ESTRUTIRAS METALICAS NA ARQUITETURA</h5>
+                    
+                    </Carousel.Caption>
+                </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={galpao1}
+                alt="Third slide"
+                />
+                <Carousel.Caption>
+                <h5>galpao1</h5>
+                <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                </p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={galpao2}
+                alt="Third slide"
+                />
+                <Carousel.Caption>
+                <h5>Galpão2</h5>
+                <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                </p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={galpao3}
+                alt="Third slide"
+                />
+                <Carousel.Caption>
+                <h5>Galpão3</h5>
+                <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                </p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            </Carousel>
+
+                   
 
                    
                    
                 </div>
 
                 
-                <div class="section--services" >
-
-                    <div class="item">
-                            <div className="estrutura--metalica--tile">
-                                {/* <p>Galpão</p> */}
-                            </div>
-                            <div
-                            className="estrutura--metalica--img"
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                            >
-                            {isHovered && (
-                                <div className="efeito">
-                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
-                                    <p>Entrar em contato</p>
-                                </div>
-                            )}
-                            <img src={galpao1} />
-                            </div>
-                            <div  className="estrutura--metalica--desc">
-                               <p>
-                                Ótimo investimento pela resistência do material e confortabilidade. 
-                                Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
-                                por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
-                               </p>
-                            </div>
-                            <div className="btn">
-                                <div className="btn--2">
-                                    <Btn />
-                                </div>                               
-                            </div>
-                        </div>
-
-                        <div class="item">
-                        <div className="estrutura--metalica--tile">
-                            {/* <p>Galpão</p> */}
-                        </div>
-                        <div
-                            className="estrutura--metalica--img"
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >
-                            {isHovered && (
-                                <div className="efeito">
-                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
-                                    <p>Entrar em contato</p>
-                                </div>
-                            )}
-                             <img src={galpao2} />
-                             </div>
-                        <div  className="estrutura--metalica--desc">
-                        <p>
-                            Ótimo investimento pela resistência do material e confortabilidade. 
-                            Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
-                            por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
-                        </p>
-                        </div>
-                        <div className="btn">
-                            <div className="btn--2">
-                                <Btn />
-                            </div>                               
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div className="estrutura--metalica--tile">
-                            {/* <p>Galpão</p> */}
-                        </div>
-                        <div
-                            className="estrutura--metalica--img"
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >
-                            {isHovered && (
-                                <div className="efeito">
-                                  <a href="https://wa.me/53999367651" >  <FontAwesomeIcon icon={faWhatsapp} className="icon" /> </a>
-                                    <p>Entrar em contato</p>
-                                </div>
-                            )}
-                            <img src={galpao3} />
-                            </div>
-                        <div  className="estrutura--metalica--desc">
-                        <p>
-                            Ótimo investimento pela resistência do material e confortabilidade. 
-                            Rápidos e fáceis de serem erguidos, os galpões metálicos são compostos
-                            por pilares, vigas de sustentação e elementos de travamento, cobertura e fechamento em aluzinco.
-                        </p>
-                        </div>
-                        <div className="btn">
-                            <div className="btn--2">
-                                <Btn />
-                            </div>                               
-                        </div>
-                    </div>
-
-                    
-
-                    </div>
+                
 
                
               <div className="separador"></div>
@@ -256,7 +224,8 @@ export const Section = () => {
                         </div>
                         <div className="btn">
                             <div className="btn--2">
-                                <Btn />
+                                <Link to="/TelhasGalvalume"> <Btn /></Link>
+                               
                             </div>                               
                         </div>
                     </div>

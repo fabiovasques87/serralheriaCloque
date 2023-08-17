@@ -11,6 +11,24 @@ export const HeaderArea = styled.div `
         border: 1px solid rgba(0, 0, 0, 0.5);
     }
 
+    .sub--title--carousel--top{
+        font-weight:bold;
+        font-size:18px;
+        text-align:center;
+    }
+    span{
+        font-weight:bold;
+    }
+
+    .estrutura--metalica--desc p {
+        // line-height: 2;
+        padding:10px;
+        text-align:justify;
+    }
+    .sub--title--carousel--top--info{
+        text-align:center;
+    }
+
     .title{
      
         // font-family: SQUARED, serif;
@@ -158,7 +176,8 @@ export const HeaderArea = styled.div `
 
 
             .logo--about, img{
-                height: 300px;
+                height: 100%;
+                width: 100%;
             }
             .about--texto{
                 text-align: justify;
@@ -176,12 +195,37 @@ export const HeaderArea = styled.div `
             }
         }
 
-       
+        .carousel {
+            width:50%;
+            height:50%;
+            
+        }
+    
+        .carousel, img{
+            width:50%;
+            height:400px;
+        }
+    
+        .containner{
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            margin-top:30px;
+    
+            h5, p{
+                color: #fff;
+            }
+        }
+    
+      
 
         
         @media (max-width: 900px){
 
-         
+            .carousel, img{
+                width:80%;
+                height:250px;
+            }
 
          .title, p{
             
