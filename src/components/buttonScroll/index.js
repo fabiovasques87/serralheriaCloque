@@ -41,27 +41,17 @@ const ScrollToTopButton = () => {
 
     </Link>
 
-<HeaderArea>
-      <div
-        style={{
-          position: "fixed",
-          bottom: "20px",
-          left: "20px",
-          cursor: "pointer",
-          fontSize: '55px',
-          color: 'green',
-          
-        }}
-      >
+   <HeaderArea>
+      <div className="iconeWhatsapp">
 
-        <a href="https://wa.me/53999010150" >
-         <FontAwesomeIcon icon={faWhatsapp} />
-        </a>
+          <a href="https://wa.me/53999010150" >
+          <FontAwesomeIcon icon={faWhatsapp}  />
+          </a>
 
 
       </div>
 
-      </HeaderArea>
+    </HeaderArea>
 
     </div>
 

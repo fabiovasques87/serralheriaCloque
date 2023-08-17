@@ -79,6 +79,7 @@ export const HeaderArea = styled.div `
     .footer--bottom span{
         font-size:10px;
     }
+    
 }
 
 `

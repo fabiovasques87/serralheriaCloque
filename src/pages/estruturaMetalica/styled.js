@@ -12,7 +12,7 @@ export const HeaderArea = styled.div `
 
     .carousel, img{
         width:50%;
-        height:320px;
+        height:400px;
     }
 
     .containner{
@@ -30,7 +30,7 @@ export const HeaderArea = styled.div `
 
         .carousel, img{
             width:80%;
-            height:200px;
+            height:250px;
         }
 
     }

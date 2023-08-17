@@ -19,6 +19,7 @@ export const Footer = () => {
 
                         </div>
                   
+                    <hr />
                         <div className="footer--right">
                                 <form>
                                     <label>Email</label>
